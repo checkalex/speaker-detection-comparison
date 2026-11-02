@@ -5,6 +5,7 @@ from pathlib import Path
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
 import numpy as np
 
 ROOT = Path(__file__).parent / 'site'
@@ -51,6 +52,34 @@ def quality():
     clean(ax)
     fig.subplots_adjust(left=.26, right=.96, bottom=.14, top=.96)
     save(fig, 'quality-by-clip')
+
+
+def subtitle_accuracy(mobile=False):
+    count = len(DATA['clips'])
+    fig, ax = plt.subplots(figsize=(4.5 if mobile else 11.8, (1.2 if mobile else 1.15) * count + .8))
+    for index, clip in enumerate(DATA['clips']):
+        y = count - 1 - index
+        a, b = (clip['results'][model]['subtitle_accuracy']['accuracy_percent'] for model in ['pyannote', 'nemotron'])
+        if mobile:
+            ax.text(0, y + .39, clip['title'], fontsize=9, fontweight='bold')
+        ax.plot([a, b], [y, y], color='#cfd5d1', linewidth=3 if mobile else 4, zorder=1, solid_capstyle='round')
+        for value, color, offset in [(a, ORANGE, .17), (b, TEAL, -.22)]:
+            ax.scatter(value, y, s=52 if mobile else 90, color=color, edgecolor='white', linewidth=1.2, zorder=3)
+            ax.text(value, y + offset, f'{value:.2f}%', color=color, fontsize=9 if mobile else 11,
+                    fontweight='bold', ha='center')
+    ax.set_yticks([] if mobile else list(reversed(range(count))), [] if mobile else [clip['title'] for clip in DATA['clips']])
+    ax.set_xlim(0, 104)
+    ax.set_ylim(-.6, count - .3)
+    ax.set_xticks([0, 25, 50, 75, 100], ['0%', '25%', '50%', '75%', '100%'])
+    ax.grid(axis='x', color=GRID, linewidth=.7 if mobile else 1)
+    ax.set_xlabel('Correct subtitle speaker assignments · higher is better', labelpad=18, fontsize=8 if mobile else 10)
+    fig.legend(handles=[Line2D([], [], marker='o', linestyle='none', color=color, label=label)
+                        for color, label in [(ORANGE, 'Precision-3'), (TEAL, 'NVIDIA')]],
+               loc='upper center', bbox_to_anchor=(.5 if mobile else .61, 1.02), ncol=2,
+               frameon=False, fontsize=9 if mobile else 11)
+    clean(ax)
+    fig.subplots_adjust(left=.06 if mobile else .26, right=.96, bottom=.12 if mobile else .14, top=.97)
+    save(fig, 'subtitle-accuracy-mobile' if mobile else 'subtitle-accuracy')
 
 
 def errors():
@@ -157,6 +186,8 @@ def mobile_figures():
 
 
 if __name__ == '__main__':
+    subtitle_accuracy()
+    subtitle_accuracy(mobile=True)
     quality()
     errors()
     speaker_counts()

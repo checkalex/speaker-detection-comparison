@@ -1,0 +1,1699 @@
+clip,model,cue_number,start,end,reference_speakers,predicted_cluster,mapped_reference,status,correct,editor_fallback
+Dave the Barbarian,pyannote,1,0.5,2.366667,R8,SPEAKER_03,R11,scored,False,False
+Dave the Barbarian,pyannote,2,2.4,5.833333,R8,SPEAKER_03,R11,scored,False,False
+Dave the Barbarian,pyannote,3,6.133333,8.1,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,4,8.466667,10.3,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,5,10.3,12.1,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,6,12.5,15.533333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,7,17.066667,21.1,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,8,21.1,21.733333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,9,21.733333,23.0,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,10,23.266667,26.166667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,11,26.233333,29.1,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,12,29.1,29.933333,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,13,30.033333,30.633333,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,14,31.4,32.133333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,15,33.066667,36.333333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,16,36.433333,37.866667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,17,38.3,41.266667,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,18,41.266667,45.633333,R8,SPEAKER_03,R11,scored,False,False
+Dave the Barbarian,pyannote,19,45.666667,47.633333,R8,SPEAKER_03,R11,scored,False,False
+Dave the Barbarian,pyannote,20,47.633333,49.366667,R2,SPEAKER_05,R2,scored,True,False
+Dave the Barbarian,pyannote,21,49.633333,52.033333,R10,SPEAKER_02,R10,scored,True,False
+Dave the Barbarian,pyannote,22,52.233333,53.033333,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,23,53.166667,54.333333,R10,SPEAKER_02,R10,scored,True,False
+Dave the Barbarian,pyannote,24,54.6,56.366667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,25,56.8,58.633333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,26,58.9,59.833333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,27,61.366667,64.133333,R5,SPEAKER_08,R1,scored,False,False
+Dave the Barbarian,pyannote,28,65.1,65.766667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,29,65.966667,66.2,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,30,66.2,66.733333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,31,66.733333,67.333333,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,32,67.333333,67.9,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,33,67.9,68.333333,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,34,68.333333,68.933333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,35,68.933333,69.166667,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,36,69.4,69.833333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,37,69.833333,70.533333,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,38,70.533333,72.233333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,39,72.233333,75.933333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,40,76.033333,77.533333,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,41,77.566667,78.233333,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,42,80.8,83.066667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,43,83.066667,86.633333,R8,SPEAKER_03,R11,scored,False,False
+Dave the Barbarian,pyannote,44,87.6,89.4,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,45,89.733333,91.333333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,46,91.666667,92.7,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,47,92.9,94.2,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,48,94.2,96.066667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,49,96.133333,96.766667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,50,101.933333,106.266667,R9,SPEAKER_04,R9,scored,True,False
+Dave the Barbarian,pyannote,51,106.333333,107.066667,R4,SPEAKER_00,R7,scored,False,True
+Dave the Barbarian,pyannote,52,109.633333,110.133333,R3,SPEAKER_02,R10,scored,False,False
+Dave the Barbarian,pyannote,53,112.033333,114.233333,R9,SPEAKER_04,R9,scored,True,False
+Dave the Barbarian,pyannote,54,115.466667,117.2,R6,SPEAKER_07,R6,scored,True,False
+Dave the Barbarian,pyannote,55,117.533333,119.566667,R6,SPEAKER_07,R6,scored,True,False
+Dave the Barbarian,pyannote,56,119.6,120.866667,R6,SPEAKER_07,R6,scored,True,False
+Dave the Barbarian,pyannote,57,124.066667,126.1,R6,SPEAKER_07,R6,scored,True,False
+Dave the Barbarian,pyannote,58,128.566667,129.033333,R9,SPEAKER_04,R9,scored,True,False
+Dave the Barbarian,pyannote,59,129.066667,129.133333,R9,SPEAKER_04,R9,scored,True,False
+Dave the Barbarian,pyannote,60,130.566667,132.633333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,61,136.366667,137.566667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,62,138.233333,141.366667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,63,141.4,142.033333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,64,142.466667,143.266667,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,65,146.166667,150.6,R8,SPEAKER_03,R11,scored,False,False
+Dave the Barbarian,pyannote,66,150.633333,151.9,R1,SPEAKER_03,R11,scored,False,False
+Dave the Barbarian,pyannote,67,151.9,152.0,R1,SPEAKER_03,R11,scored,False,False
+Dave the Barbarian,pyannote,68,152.0,153.566667,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,69,153.933333,154.733333,R5,SPEAKER_08,R1,scored,False,False
+Dave the Barbarian,pyannote,70,155.566667,157.366667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,71,158.266667,161.666667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,72,166.166667,173.333333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,73,173.366667,176.833333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,74,177.966667,180.933333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,75,180.933333,180.966667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,76,183.766667,185.766667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,77,185.766667,188.8,R2,SPEAKER_05,R2,scored,True,False
+Dave the Barbarian,pyannote,78,188.8,191.8,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,79,191.833333,193.266667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,80,193.266667,194.766667,R10,SPEAKER_02,R10,scored,True,False
+Dave the Barbarian,pyannote,81,194.966667,195.966667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,82,195.966667,198.766667,R6,SPEAKER_06,,scored,False,False
+Dave the Barbarian,pyannote,83,199.433333,202.6,R1|R4|R5|R7|R10,,,excluded_multiple_speakers,,False
+Dave the Barbarian,pyannote,84,202.666667,205.6,R1|R4|R5|R7|R10,,,excluded_multiple_speakers,,False
+Dave the Barbarian,pyannote,85,205.6,208.966667,R7,SPEAKER_00,R7,scored,True,False
+Dave the Barbarian,pyannote,86,209.133333,213.633333,R7,SPEAKER_00,R7,scored,True,False
+Dave the Barbarian,pyannote,87,214.333333,215.133333,R7,SPEAKER_00,R7,scored,True,False
+Dave the Barbarian,pyannote,88,217.366667,218.333333,R1,SPEAKER_08,R1,scored,True,False
+Dave the Barbarian,pyannote,89,219.033333,220.3,R2,SPEAKER_05,R2,scored,True,False
+Dave the Barbarian,pyannote,90,220.3,220.333333,R2,SPEAKER_05,R2,scored,True,False
+Dave the Barbarian,pyannote,91,221.033333,221.566667,R2,SPEAKER_05,R2,scored,True,False
+Dave the Barbarian,pyannote,92,221.566667,223.433333,R2,SPEAKER_05,R2,scored,True,False
+Dave the Barbarian,pyannote,93,223.6,225.3,R2,SPEAKER_05,R2,scored,True,False
+Dave the Barbarian,pyannote,94,226.033333,229.366667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,95,229.666667,232.166667,R7,SPEAKER_01,,scored,False,False
+Dave the Barbarian,pyannote,96,232.866667,234.633333,R2,SPEAKER_05,R2,scored,True,False
+Dave the Barbarian,pyannote,97,235.5,236.633333,R7,SPEAKER_01,,scored,False,False
+Dave the Barbarian,pyannote,98,236.633333,237.2,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,99,238.633333,241.133333,R2,SPEAKER_05,R2,scored,True,False
+Dave the Barbarian,pyannote,100,241.133333,243.166667,R2,SPEAKER_05,R2,scored,True,False
+Dave the Barbarian,pyannote,101,244.066667,248.4,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,102,248.466667,249.933333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,103,249.933333,252.066667,R2,SPEAKER_05,R2,scored,True,False
+Dave the Barbarian,pyannote,104,252.066667,254.033333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,105,254.066667,255.433333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,106,255.433333,256.6,R2,SPEAKER_05,R2,scored,True,False
+Dave the Barbarian,pyannote,107,258.066667,259.233333,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,pyannote,108,259.3,259.866667,R11,SPEAKER_03,R11,scored,True,False
+Dave the Barbarian,nemotron,1,0.5,2.366667,R8,speaker_0,R11,scored,False,False
+Dave the Barbarian,nemotron,2,2.4,5.833333,R8,speaker_0,R11,scored,False,False
+Dave the Barbarian,nemotron,3,6.133333,8.1,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,4,8.466667,10.3,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,5,10.3,12.1,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,6,12.5,15.533333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,7,17.066667,21.1,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,8,21.1,21.733333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,9,21.733333,23.0,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,10,23.266667,26.166667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,11,26.233333,29.1,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,12,29.1,29.933333,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,13,30.033333,30.633333,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,14,31.4,32.133333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,15,33.066667,36.333333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,16,36.433333,37.866667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,17,38.3,41.266667,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,18,41.266667,45.633333,R8,speaker_0,R11,scored,False,False
+Dave the Barbarian,nemotron,19,45.666667,47.633333,R8,speaker_0,R11,scored,False,False
+Dave the Barbarian,nemotron,20,47.633333,49.366667,R2,speaker_2,R2,scored,True,False
+Dave the Barbarian,nemotron,21,49.633333,52.033333,R10,speaker_0,R11,scored,False,False
+Dave the Barbarian,nemotron,22,52.233333,53.033333,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,23,53.166667,54.333333,R10,speaker_0,R11,scored,False,False
+Dave the Barbarian,nemotron,24,54.6,56.366667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,25,56.8,58.633333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,26,58.9,59.833333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,27,61.366667,64.133333,R5,speaker_1,R1,scored,False,False
+Dave the Barbarian,nemotron,28,65.1,65.766667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,29,65.966667,66.2,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,30,66.2,66.733333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,31,66.733333,67.333333,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,32,67.333333,67.9,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,33,67.9,68.333333,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,34,68.333333,68.933333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,35,68.933333,69.166667,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,36,69.4,69.833333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,37,69.833333,70.533333,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,38,70.533333,72.233333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,39,72.233333,75.933333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,40,76.033333,77.533333,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,41,77.566667,78.233333,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,42,80.8,83.066667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,43,83.066667,86.633333,R8,speaker_0,R11,scored,False,False
+Dave the Barbarian,nemotron,44,87.6,89.4,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,45,89.733333,91.333333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,46,91.666667,92.7,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,47,92.9,94.2,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,48,94.2,96.066667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,49,96.133333,96.766667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,50,101.933333,106.266667,R9,speaker_2,R2,scored,False,False
+Dave the Barbarian,nemotron,51,106.333333,107.066667,R4,speaker_0,R11,scored,False,True
+Dave the Barbarian,nemotron,52,109.633333,110.133333,R3,speaker_0,R11,scored,False,True
+Dave the Barbarian,nemotron,53,112.033333,114.233333,R9,speaker_2,R2,scored,False,False
+Dave the Barbarian,nemotron,54,115.466667,117.2,R6,speaker_1,R1,scored,False,False
+Dave the Barbarian,nemotron,55,117.533333,119.566667,R6,speaker_1,R1,scored,False,False
+Dave the Barbarian,nemotron,56,119.6,120.866667,R6,speaker_1,R1,scored,False,False
+Dave the Barbarian,nemotron,57,124.066667,126.1,R6,speaker_1,R1,scored,False,False
+Dave the Barbarian,nemotron,58,128.566667,129.033333,R9,speaker_2,R2,scored,False,False
+Dave the Barbarian,nemotron,59,129.066667,129.133333,R9,speaker_2,R2,scored,False,False
+Dave the Barbarian,nemotron,60,130.566667,132.633333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,61,136.366667,137.566667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,62,138.233333,141.366667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,63,141.4,142.033333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,64,142.466667,143.266667,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,65,146.166667,150.6,R8,speaker_0,R11,scored,False,False
+Dave the Barbarian,nemotron,66,150.633333,151.9,R1,speaker_0,R11,scored,False,False
+Dave the Barbarian,nemotron,67,151.9,152.0,R1,speaker_0,R11,scored,False,False
+Dave the Barbarian,nemotron,68,152.0,153.566667,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,69,153.933333,154.733333,R5,speaker_1,R1,scored,False,False
+Dave the Barbarian,nemotron,70,155.566667,157.366667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,71,158.266667,161.666667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,72,166.166667,173.333333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,73,173.366667,176.833333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,74,177.966667,180.933333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,75,180.933333,180.966667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,76,183.766667,185.766667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,77,185.766667,188.8,R2,speaker_0,R11,scored,False,False
+Dave the Barbarian,nemotron,78,188.8,191.8,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,79,191.833333,193.266667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,80,193.266667,194.766667,R10,speaker_3,R10,scored,True,False
+Dave the Barbarian,nemotron,81,194.966667,195.966667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,82,195.966667,198.766667,R6,speaker_1,R1,scored,False,False
+Dave the Barbarian,nemotron,83,199.433333,202.6,R1|R4|R5|R7|R10,,,excluded_multiple_speakers,,False
+Dave the Barbarian,nemotron,84,202.666667,205.6,R1|R4|R5|R7|R10,,,excluded_multiple_speakers,,False
+Dave the Barbarian,nemotron,85,205.6,208.966667,R7,speaker_2,R2,scored,False,False
+Dave the Barbarian,nemotron,86,209.133333,213.633333,R7,speaker_2,R2,scored,False,False
+Dave the Barbarian,nemotron,87,214.333333,215.133333,R7,speaker_2,R2,scored,False,False
+Dave the Barbarian,nemotron,88,217.366667,218.333333,R1,speaker_1,R1,scored,True,False
+Dave the Barbarian,nemotron,89,219.033333,220.3,R2,speaker_0,R11,scored,False,True
+Dave the Barbarian,nemotron,90,220.3,220.333333,R2,speaker_0,R11,scored,False,True
+Dave the Barbarian,nemotron,91,221.033333,221.566667,R2,speaker_2,R2,scored,True,False
+Dave the Barbarian,nemotron,92,221.566667,223.433333,R2,speaker_2,R2,scored,True,False
+Dave the Barbarian,nemotron,93,223.6,225.3,R2,speaker_2,R2,scored,True,False
+Dave the Barbarian,nemotron,94,226.033333,229.366667,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,95,229.666667,232.166667,R7,speaker_2,R2,scored,False,False
+Dave the Barbarian,nemotron,96,232.866667,234.633333,R2,speaker_2,R2,scored,True,False
+Dave the Barbarian,nemotron,97,235.5,236.633333,R7,speaker_2,R2,scored,False,False
+Dave the Barbarian,nemotron,98,236.633333,237.2,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,99,238.633333,241.133333,R2,speaker_2,R2,scored,True,False
+Dave the Barbarian,nemotron,100,241.133333,243.166667,R2,speaker_2,R2,scored,True,False
+Dave the Barbarian,nemotron,101,244.066667,248.4,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,102,248.466667,249.933333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,103,249.933333,252.066667,R2,speaker_4,,scored,False,False
+Dave the Barbarian,nemotron,104,252.066667,254.033333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,105,254.066667,255.433333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,106,255.433333,256.6,R2,speaker_4,,scored,False,False
+Dave the Barbarian,nemotron,107,258.066667,259.233333,R11,speaker_0,R11,scored,True,False
+Dave the Barbarian,nemotron,108,259.3,259.866667,R11,speaker_0,R11,scored,True,False
+Pizza Delivery,pyannote,1,0.68,0.84,R2,SPEAKER_00,R2,scored,True,True
+Pizza Delivery,pyannote,2,1.6,2.52,R2,SPEAKER_02,R1,scored,False,False
+Pizza Delivery,pyannote,3,2.52,3.03,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,4,3.34,3.45,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,5,3.45,5.76,R2,SPEAKER_03,R4,scored,False,False
+Pizza Delivery,pyannote,6,6.36,7.26,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,7,7.3,11.48,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,8,13.04,14.52,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,9,14.52,17.48,R2,SPEAKER_03,R4,scored,False,False
+Pizza Delivery,pyannote,10,18.0,20.14,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,11,20.37,24.28,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,12,24.28,27.44,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,13,28.57,29.74,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,14,30.54,31.82,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,15,33.3,35.6,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,16,35.62,39.86,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,17,40.32,42.88,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,18,42.88,45.98,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,19,46.12,47.8,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,20,47.8,48.26,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,21,49.58,51.88,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,22,52.3,53.52,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,23,53.8,54.92,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,24,54.92,57.82,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,25,57.94,58.7,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,26,59.32,60.06,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,27,60.1,62.84,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,28,64.68,67.36,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,29,80.94,83.48,R5,SPEAKER_03,R4,scored,False,False
+Pizza Delivery,pyannote,30,83.86,85.86,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,31,90.84,94.28,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,32,94.64,98.68,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,33,103.11,106.24,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,34,106.5,108.3,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,35,108.42,110.29,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,36,110.58,111.2,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,37,111.42,113.36,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,38,113.36,115.19,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,39,115.3,117.5,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,40,120.34,122.0,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,41,122.42,127.6,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,42,131.1,131.3,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,43,131.74,132.18,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,44,132.6,134.08,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,45,135.14,136.06,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,46,136.88,137.72,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,47,137.72,142.1,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,48,142.57,142.59,R3,SPEAKER_00,R2,scored,False,True
+Pizza Delivery,pyannote,49,142.59,142.61,R3,SPEAKER_00,R2,scored,False,True
+Pizza Delivery,pyannote,50,142.61,142.89,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,51,151.18,161.58,R3,SPEAKER_00,R2,scored,False,False
+Pizza Delivery,pyannote,52,167.32,169.84,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,53,169.85,174.08,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,54,175.94,178.72,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,55,179.0,179.2,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,56,180.0,181.68,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,57,182.36,183.06,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,58,183.56,185.76,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,59,187.04,188.58,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,60,189.16,191.72,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,61,192.08,193.5,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,62,193.72,194.5,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,63,194.94,195.08,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,64,195.56,197.86,R3,SPEAKER_03,R4,scored,False,False
+Pizza Delivery,pyannote,65,198.06,198.82,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,66,200.34,200.56,R1,SPEAKER_03,R4,scored,False,False
+Pizza Delivery,pyannote,67,201.02,202.1,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,68,202.36,204.24,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,69,204.24,205.28,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,70,205.34,206.54,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,71,206.6,206.66,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,72,206.66,206.68,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,73,206.68,206.7,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,74,207.66,208.32,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,75,209.46,210.4,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,76,210.4,211.44,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,77,212.06,212.83,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,78,212.94,213.52,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,79,213.76,216.0,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,80,216.0,219.76,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,81,220.58,223.12,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,82,223.12,225.68,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,83,225.7,227.56,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,84,231.29,232.08,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,85,232.08,233.16,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,86,233.16,235.72,R1,SPEAKER_02,R1,scored,True,False
+Pizza Delivery,pyannote,87,235.72,238.52,R4,SPEAKER_02,R1,scored,False,False
+Pizza Delivery,pyannote,88,239.2,240.44,R3,SPEAKER_01,R3,scored,True,False
+Pizza Delivery,pyannote,89,240.76,242.24,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,pyannote,90,242.26,243.52,R4,SPEAKER_03,R4,scored,True,False
+Pizza Delivery,nemotron,1,0.68,0.84,R2,speaker_0,R4,scored,False,False
+Pizza Delivery,nemotron,2,1.6,2.52,R2,speaker_0,R4,scored,False,False
+Pizza Delivery,nemotron,3,2.52,3.03,R4,speaker_1,R1,scored,False,False
+Pizza Delivery,nemotron,4,3.34,3.45,R4,speaker_1,R1,scored,False,False
+Pizza Delivery,nemotron,5,3.45,5.76,R2,speaker_0,R4,scored,False,False
+Pizza Delivery,nemotron,6,6.36,7.26,R4,speaker_1,R1,scored,False,False
+Pizza Delivery,nemotron,7,7.3,11.48,R4,speaker_1,R1,scored,False,False
+Pizza Delivery,nemotron,8,13.04,14.52,R4,speaker_1,R1,scored,False,False
+Pizza Delivery,nemotron,9,14.52,17.48,R2,speaker_0,R4,scored,False,False
+Pizza Delivery,nemotron,10,18.0,20.14,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,11,20.37,24.28,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,12,24.28,27.44,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,13,28.57,29.74,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,14,30.54,31.82,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,15,33.3,35.6,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,16,35.62,39.86,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,17,40.32,42.88,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,18,42.88,45.98,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,19,46.12,47.8,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,20,47.8,48.26,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,21,49.58,51.88,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,22,52.3,53.52,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,23,53.8,54.92,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,24,54.92,57.82,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,25,57.94,58.7,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,26,59.32,60.06,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,27,60.1,62.84,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,28,64.68,67.36,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,29,80.94,83.48,R5,speaker_0,R4,scored,False,False
+Pizza Delivery,nemotron,30,83.86,85.86,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,31,90.84,94.28,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,32,94.64,98.68,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,33,103.11,106.24,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,34,106.5,108.3,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,35,108.42,110.29,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,36,110.58,111.2,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,37,111.42,113.36,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,38,113.36,115.19,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,39,115.3,117.5,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,40,120.34,122.0,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,41,122.42,127.6,R4,speaker_0,R4,scored,True,True
+Pizza Delivery,nemotron,42,131.1,131.3,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,43,131.74,132.18,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,44,132.6,134.08,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,45,135.14,136.06,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,46,136.88,137.72,R4,speaker_1,R1,scored,False,False
+Pizza Delivery,nemotron,47,137.72,142.1,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,48,142.57,142.59,R3,speaker_0,R4,scored,False,True
+Pizza Delivery,nemotron,49,142.59,142.61,R3,speaker_0,R4,scored,False,True
+Pizza Delivery,nemotron,50,142.61,142.89,R3,speaker_0,R4,scored,False,True
+Pizza Delivery,nemotron,51,151.18,161.58,R3,speaker_1,R1,scored,False,False
+Pizza Delivery,nemotron,52,167.32,169.84,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,53,169.85,174.08,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,54,175.94,178.72,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,55,179.0,179.2,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,56,180.0,181.68,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,57,182.36,183.06,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,58,183.56,185.76,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,59,187.04,188.58,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,60,189.16,191.72,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,61,192.08,193.5,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,62,193.72,194.5,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,63,194.94,195.08,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,64,195.56,197.86,R3,speaker_0,R4,scored,False,False
+Pizza Delivery,nemotron,65,198.06,198.82,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,66,200.34,200.56,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,67,201.02,202.1,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,68,202.36,204.24,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,69,204.24,205.28,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,70,205.34,206.54,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,71,206.6,206.66,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,72,206.66,206.68,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,73,206.68,206.7,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,74,207.66,208.32,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,75,209.46,210.4,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,76,210.4,211.44,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,77,212.06,212.83,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,78,212.94,213.52,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,79,213.76,216.0,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,80,216.0,219.76,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,81,220.58,223.12,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,82,223.12,225.68,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,83,225.7,227.56,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,84,231.29,232.08,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,85,232.08,233.16,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,86,233.16,235.72,R1,speaker_1,R1,scored,True,False
+Pizza Delivery,nemotron,87,235.72,238.52,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,88,239.2,240.44,R3,speaker_2,R3,scored,True,False
+Pizza Delivery,nemotron,89,240.76,242.24,R4,speaker_0,R4,scored,True,False
+Pizza Delivery,nemotron,90,242.26,243.52,R4,speaker_0,R4,scored,True,False
+Veronica Having Bad Luck,pyannote,1,0.166667,1.333333,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,2,1.333333,4.7,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,3,9.7,13.2,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,4,13.233333,15.966667,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,5,19.833333,23.133333,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,6,23.4,25.466667,R8,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,7,25.466667,26.766667,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,8,27.133333,28.333333,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,9,28.333333,30.4,R7,SPEAKER_03,R1,scored,False,False
+Veronica Having Bad Luck,pyannote,10,30.4,34.733333,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,11,35.133333,36.3,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,12,38.666667,41.366667,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,13,48.333333,51.133333,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,14,53.533333,53.866667,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,15,54.366667,55.766667,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,16,62.833333,64.166667,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,17,64.166667,67.066667,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,18,67.133333,69.466667,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,19,71.9,72.333333,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,20,72.566667,73.866667,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,21,73.966667,77.633333,R5,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,22,80.733333,82.033333,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,23,85.3,86.833333,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,24,91.533333,93.566667,R3,SPEAKER_01,R3,scored,True,False
+Veronica Having Bad Luck,pyannote,25,93.566667,94.8,R3,SPEAKER_01,R3,scored,True,False
+Veronica Having Bad Luck,pyannote,26,96.333333,97.266667,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,27,97.533333,98.5,R5,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,28,98.5,99.8,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,29,100.233333,102.966667,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,30,103.7,105.833333,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,31,106.033333,107.733333,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,32,108.033333,109.8,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,33,110.566667,112.433333,R5,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,34,116.166667,116.3,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,35,116.3,118.066667,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,36,118.066667,118.933333,R1,SPEAKER_01,R3,scored,False,False
+Veronica Having Bad Luck,pyannote,37,119.433333,120.833333,R1,SPEAKER_01,R3,scored,False,False
+Veronica Having Bad Luck,pyannote,38,121.333333,122.333333,R5,SPEAKER_01,R3,scored,False,False
+Veronica Having Bad Luck,pyannote,39,122.333333,126.333333,R3,SPEAKER_01,R3,scored,True,False
+Veronica Having Bad Luck,pyannote,40,126.366667,130.133333,R3,SPEAKER_01,R3,scored,True,False
+Veronica Having Bad Luck,pyannote,41,130.466667,131.7,R3,SPEAKER_01,R3,scored,True,False
+Veronica Having Bad Luck,pyannote,42,134.966667,139.233333,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,43,142.933333,145.266667,R2,SPEAKER_00,R2,scored,True,False
+Veronica Having Bad Luck,pyannote,44,145.533333,148.066667,R2,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,45,148.266667,148.933333,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,46,148.966667,151.366667,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,47,153.633333,154.766667,R7,SPEAKER_04,R4,scored,False,False
+Veronica Having Bad Luck,pyannote,48,155.0,156.533333,R7,SPEAKER_04,R4,scored,False,False
+Veronica Having Bad Luck,pyannote,49,156.566667,159.266667,R7,SPEAKER_04,R4,scored,False,False
+Veronica Having Bad Luck,pyannote,50,159.266667,165.966667,R4,SPEAKER_04,R4,scored,True,False
+Veronica Having Bad Luck,pyannote,51,172.6,176.566667,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,52,176.566667,177.266667,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,53,177.266667,179.1,R5,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,54,179.1,181.7,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,55,183.033333,183.666667,R3,SPEAKER_03,R1,scored,False,False
+Veronica Having Bad Luck,pyannote,56,183.833333,184.733333,R1,SPEAKER_03,R1,scored,True,False
+Veronica Having Bad Luck,pyannote,57,184.733333,186.133333,R1,SPEAKER_03,R1,scored,True,False
+Veronica Having Bad Luck,pyannote,58,186.266667,187.8,R6,SPEAKER_03,R1,scored,False,False
+Veronica Having Bad Luck,pyannote,59,187.933333,189.1,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,60,189.1,190.3,R5,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,61,191.133333,191.933333,R1,SPEAKER_03,R1,scored,True,False
+Veronica Having Bad Luck,pyannote,62,192.266667,194.1,R1,SPEAKER_03,R1,scored,True,False
+Veronica Having Bad Luck,pyannote,63,196.033333,198.5,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,64,200.033333,202.5,R7,SPEAKER_00,R2,scored,False,True
+Veronica Having Bad Luck,pyannote,65,202.533333,204.933333,R7,SPEAKER_00,R2,scored,False,True
+Veronica Having Bad Luck,pyannote,66,205.4,205.766667,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,67,205.833333,206.6,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,68,208.033333,209.6,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,69,209.6,211.633333,R6,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,70,211.866667,213.966667,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,71,218.433333,220.4,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,72,220.4,222.566667,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,73,222.666667,224.633333,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,74,224.8,226.466667,R5,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,75,226.466667,227.566667,R5,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,76,228.333333,229.933333,R7,SPEAKER_02,R7,scored,True,False
+Veronica Having Bad Luck,pyannote,77,229.933333,231.466667,R5,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,pyannote,78,235.8,237.2,R5,SPEAKER_02,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,1,0.166667,1.333333,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,2,1.333333,4.7,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,3,9.7,13.2,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,4,13.233333,15.966667,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,5,19.833333,23.133333,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,6,23.4,25.466667,R8,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,7,25.466667,26.766667,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,8,27.133333,28.333333,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,9,28.333333,30.4,R7,speaker_1,R1,scored,False,False
+Veronica Having Bad Luck,nemotron,10,30.4,34.733333,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,11,35.133333,36.3,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,12,38.666667,41.366667,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,13,48.333333,51.133333,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,14,53.533333,53.866667,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,15,54.366667,55.766667,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,16,62.833333,64.166667,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,17,64.166667,67.066667,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,18,67.133333,69.466667,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,19,71.9,72.333333,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,20,72.566667,73.866667,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,21,73.966667,77.633333,R5,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,22,80.733333,82.033333,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,23,85.3,86.833333,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,24,91.533333,93.566667,R3,speaker_2,R3,scored,True,False
+Veronica Having Bad Luck,nemotron,25,93.566667,94.8,R3,speaker_2,R3,scored,True,False
+Veronica Having Bad Luck,nemotron,26,96.333333,97.266667,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,27,97.533333,98.5,R5,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,28,98.5,99.8,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,29,100.233333,102.966667,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,30,103.7,105.833333,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,31,106.033333,107.733333,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,32,108.033333,109.8,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,33,110.566667,112.433333,R5,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,34,116.166667,116.3,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,35,116.3,118.066667,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,36,118.066667,118.933333,R1,speaker_2,R3,scored,False,False
+Veronica Having Bad Luck,nemotron,37,119.433333,120.833333,R1,speaker_2,R3,scored,False,False
+Veronica Having Bad Luck,nemotron,38,121.333333,122.333333,R5,speaker_2,R3,scored,False,False
+Veronica Having Bad Luck,nemotron,39,122.333333,126.333333,R3,speaker_2,R3,scored,True,False
+Veronica Having Bad Luck,nemotron,40,126.366667,130.133333,R3,speaker_2,R3,scored,True,False
+Veronica Having Bad Luck,nemotron,41,130.466667,131.7,R3,speaker_2,R3,scored,True,False
+Veronica Having Bad Luck,nemotron,42,134.966667,139.233333,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,43,142.933333,145.266667,R2,speaker_3,R2,scored,True,False
+Veronica Having Bad Luck,nemotron,44,145.533333,148.066667,R2,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,45,148.266667,148.933333,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,46,148.966667,151.366667,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,47,153.633333,154.766667,R7,speaker_4,R4,scored,False,False
+Veronica Having Bad Luck,nemotron,48,155.0,156.533333,R7,speaker_4,R4,scored,False,False
+Veronica Having Bad Luck,nemotron,49,156.566667,159.266667,R7,speaker_4,R4,scored,False,False
+Veronica Having Bad Luck,nemotron,50,159.266667,165.966667,R4,speaker_4,R4,scored,True,False
+Veronica Having Bad Luck,nemotron,51,172.6,176.566667,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,52,176.566667,177.266667,R6,speaker_0,R7,scored,False,True
+Veronica Having Bad Luck,nemotron,53,177.266667,179.1,R5,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,54,179.1,181.7,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,55,183.033333,183.666667,R3,speaker_1,R1,scored,False,False
+Veronica Having Bad Luck,nemotron,56,183.833333,184.733333,R1,speaker_1,R1,scored,True,False
+Veronica Having Bad Luck,nemotron,57,184.733333,186.133333,R1,speaker_1,R1,scored,True,False
+Veronica Having Bad Luck,nemotron,58,186.266667,187.8,R6,speaker_1,R1,scored,False,False
+Veronica Having Bad Luck,nemotron,59,187.933333,189.1,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,60,189.1,190.3,R5,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,61,191.133333,191.933333,R1,speaker_1,R1,scored,True,False
+Veronica Having Bad Luck,nemotron,62,192.266667,194.1,R1,speaker_1,R1,scored,True,False
+Veronica Having Bad Luck,nemotron,63,196.033333,198.5,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,64,200.033333,202.5,R7,speaker_0,R7,scored,True,True
+Veronica Having Bad Luck,nemotron,65,202.533333,204.933333,R7,speaker_0,R7,scored,True,True
+Veronica Having Bad Luck,nemotron,66,205.4,205.766667,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,67,205.833333,206.6,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,68,208.033333,209.6,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,69,209.6,211.633333,R6,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,70,211.866667,213.966667,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,71,218.433333,220.4,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,72,220.4,222.566667,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,73,222.666667,224.633333,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,74,224.8,226.466667,R5,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,75,226.466667,227.566667,R5,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,76,228.333333,229.933333,R7,speaker_0,R7,scored,True,False
+Veronica Having Bad Luck,nemotron,77,229.933333,231.466667,R5,speaker_0,R7,scored,False,False
+Veronica Having Bad Luck,nemotron,78,235.8,237.2,R5,speaker_0,R7,scored,False,False
+Friends: Funniest Moments,pyannote,1,16.433083,17.76775,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,2,19.394375,22.355667,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,3,23.77375,24.858167,R1,SPEAKER_04,R3,scored,False,False
+Friends: Funniest Moments,pyannote,4,26.943583,29.904875,R1,SPEAKER_04,R3,scored,False,False
+Friends: Funniest Moments,pyannote,5,30.905875,31.448083,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,6,31.740042,32.490792,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,7,32.699333,34.492792,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,8,37.203833,39.497792,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,9,40.165125,40.498792,R1,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,10,43.835458,43.960583,R3,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,11,43.960583,44.127417,R3,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,12,44.711333,46.504792,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,13,46.504792,49.382667,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,14,52.5525,53.762042,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,15,53.762042,54.137417,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,16,54.137417,55.180125,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,17,55.180125,56.473083,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,18,56.473083,57.724333,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,19,58.016292,59.517792,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,20,61.102708,62.103708,R1,SPEAKER_04,R3,scored,False,False
+Friends: Funniest Moments,pyannote,21,63.480083,64.856458,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,22,64.856458,65.899167,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,23,94.969875,96.554792,R4,SPEAKER_02,R4,scored,True,False
+Friends: Funniest Moments,pyannote,24,96.554792,98.181417,R4,SPEAKER_02,R4,scored,True,False
+Friends: Funniest Moments,pyannote,25,98.181417,99.34925,R4,SPEAKER_02,R4,scored,True,False
+Friends: Funniest Moments,pyannote,26,105.188417,106.523083,R4,SPEAKER_02,R4,scored,True,False
+Friends: Funniest Moments,pyannote,27,107.6075,108.942167,R4,SPEAKER_02,R4,scored,True,False
+Friends: Funniest Moments,pyannote,28,108.942167,109.818042,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,29,109.818042,110.985875,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,30,110.985875,111.444667,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,31,111.444667,112.86275,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,32,113.196417,114.781333,R4,SPEAKER_02,R4,scored,True,False
+Friends: Funniest Moments,pyannote,33,154.779625,156.156,R1,SPEAKER_03,R1,scored,True,False
+Friends: Funniest Moments,pyannote,34,156.573083,159.90975,R1,SPEAKER_03,R1,scored,True,False
+Friends: Funniest Moments,pyannote,35,159.90975,162.787625,R1,SPEAKER_03,R1,scored,True,False
+Friends: Funniest Moments,pyannote,36,162.787625,162.996167,R3,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,37,165.373542,166.040875,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,38,166.41625,167.292125,R5,SPEAKER_01,R5,scored,True,False
+Friends: Funniest Moments,pyannote,39,167.292125,168.543375,R5,SPEAKER_01,R5,scored,True,False
+Friends: Funniest Moments,pyannote,40,169.294125,172.088583,R5,SPEAKER_01,R5,scored,True,False
+Friends: Funniest Moments,pyannote,41,192.066875,193.6935,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,42,197.488958,199.44925,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,43,199.908042,200.7005,R2,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,44,200.909042,201.159292,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,45,240.073167,240.406833,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,46,242.408833,242.49225,R7,SPEAKER_00,R2,scored,False,False
+Friends: Funniest Moments,pyannote,47,242.49225,243.910333,R2,SPEAKER_00,R2,scored,True,False
+Friends: Funniest Moments,pyannote,48,244.369125,244.702792,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,49,262.804208,263.680083,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,50,268.935333,269.394125,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,51,269.644375,270.687083,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,52,270.687083,271.479542,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,53,273.398125,274.274,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,54,274.565958,275.692083,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,55,277.819208,278.278,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,56,278.7785,281.364417,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,57,281.614667,282.407125,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,58,284.075458,287.870917,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,59,287.870917,291.124167,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,60,291.124167,293.835208,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,61,294.54425,297.297,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,62,297.297,298.089458,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,63,300.55025,300.633667,R3,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,64,300.633667,302.05175,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,65,305.55525,307.05675,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,66,307.974333,308.391417,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,67,308.391417,310.101458,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,68,310.393417,310.8105,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,69,310.8105,311.06075,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,70,311.894917,313.06275,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,71,313.06275,315.023042,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,72,315.023042,315.940625,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,73,316.149167,317.317,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,74,340.548542,342.050042,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,75,345.011333,346.763083,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,76,347.09675,347.388708,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,77,349.59925,350.558542,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,78,350.558542,351.351,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,79,351.351,352.060042,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,80,352.435417,353.227875,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,81,353.227875,354.270583,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,82,355.229875,355.355,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,83,360.068042,360.10975,R7,SPEAKER_00,R2,scored,False,True
+Friends: Funniest Moments,pyannote,84,370.536833,371.62125,R3,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,85,372.538833,376.417708,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,86,376.417708,377.710667,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,87,379.712667,380.088042,R3,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,88,382.340292,383.8835,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,89,385.176458,387.345292,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,90,388.054333,391.432708,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,91,391.432708,393.226167,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,92,395.478417,396.729667,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,93,397.105042,398.564833,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,94,398.564833,399.732667,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,95,399.732667,400.691958,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,96,400.691958,401.401,R3,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,97,403.528125,406.614542,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,98,406.9065,408.699958,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,99,408.699958,410.66025,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,100,412.870792,412.995917,R3,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,101,412.995917,413.538125,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,102,414.831083,414.956208,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,103,416.207458,416.958208,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,104,417.750667,418.876792,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,105,420.16975,420.586833,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,106,421.087333,421.421,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,107,421.712958,421.9215,R1,SPEAKER_00,R2,scored,False,True
+Friends: Funniest Moments,pyannote,108,422.17175,422.463708,R6,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,109,422.880792,423.423,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,110,423.423,423.631542,R1,SPEAKER_03,R1,scored,True,False
+Friends: Funniest Moments,pyannote,111,424.132042,424.715958,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,112,425.425,425.800375,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,113,426.342583,429.262167,R1,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,114,430.096333,432.140042,R6,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,115,432.140042,432.723958,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,116,432.723958,433.099333,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,117,433.099333,433.641542,R1,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,118,433.641542,433.724958,R6,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,119,436.18575,436.352583,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,120,436.352583,436.644542,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,121,436.894792,437.019917,R6,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,122,437.68725,438.229458,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,123,438.229458,438.771667,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,124,440.398292,441.065625,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,125,443.317875,443.901792,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,126,445.236458,446.028917,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,127,448.156042,448.990208,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,128,450.783667,451.451,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,129,451.909792,452.410292,R1,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,130,452.618833,453.035917,R1,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,131,453.369583,454.162042,R1,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,132,458.916792,461.252458,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,133,461.252458,461.71125,R1,SPEAKER_03,R1,scored,True,False
+Friends: Funniest Moments,pyannote,134,465.047917,465.256458,R6,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,135,465.256458,466.21575,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,136,466.21575,468.593125,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,137,468.593125,468.926792,R1,SPEAKER_03,R1,scored,True,False
+Friends: Funniest Moments,pyannote,138,469.9695,470.094625,R7,SPEAKER_03,R1,scored,False,False
+Friends: Funniest Moments,pyannote,139,477.185042,478.72825,R1,SPEAKER_03,R1,scored,True,False
+Friends: Funniest Moments,pyannote,140,481.23075,482.9825,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,141,483.191042,484.275458,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,142,484.942792,486.110625,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,143,488.779958,489.23875,R1,SPEAKER_03,R1,scored,True,False
+Friends: Funniest Moments,pyannote,144,489.23875,490.406583,R1,SPEAKER_03,R1,scored,True,False
+Friends: Funniest Moments,pyannote,145,493.367875,494.24375,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,146,494.24375,494.410583,R3,SPEAKER_08,R6,scored,False,False
+Friends: Funniest Moments,pyannote,147,494.410583,495.453292,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,148,495.703542,495.912083,R7,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,149,495.912083,496.329167,R3,SPEAKER_08,R6,scored,False,False
+Friends: Funniest Moments,pyannote,150,496.329167,496.579417,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,151,496.579417,498.039208,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,152,498.039208,501.0005,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,153,501.0005,503.669833,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,154,503.961792,505.296458,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,155,506.964792,507.965792,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,156,508.341167,509.675833,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,157,509.926083,510.051208,R3,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,158,510.051208,510.343167,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,159,510.343167,510.51,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,160,514.180333,515.389875,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,161,520.26975,521.062208,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,162,521.062208,521.812958,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,163,521.812958,523.0225,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,164,525.358167,526.526,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,165,526.526,528.0275,R3,SPEAKER_04,R3,scored,True,False
+Friends: Funniest Moments,pyannote,166,529.570708,530.655125,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,167,531.0305,532.490292,R7,SPEAKER_04,R3,scored,False,False
+Friends: Funniest Moments,pyannote,168,537.245042,542.875667,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,169,543.251042,544.627417,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,170,545.628417,548.089208,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,171,548.464583,548.756542,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,172,548.756542,549.215333,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,173,549.590708,550.29975,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,174,552.468583,553.469583,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,175,554.929375,556.30575,R3,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,176,558.30775,558.641417,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,177,558.641417,562.144917,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,178,562.144917,563.938375,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,179,563.938375,564.939375,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,180,564.939375,567.733833,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,181,568.0675,570.403167,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,182,570.653417,572.0715,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,183,573.739833,574.782542,R3,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,184,574.782542,577.868958,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,185,577.868958,578.953375,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,186,579.495583,581.247333,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,187,581.247333,581.789542,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,188,584.0835,586.002083,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,189,594.510583,595.052792,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,190,600.0995,600.34975,R5,SPEAKER_08,R6,scored,False,False
+Friends: Funniest Moments,pyannote,191,600.34975,600.474875,R5,SPEAKER_08,R6,scored,False,False
+Friends: Funniest Moments,pyannote,192,600.474875,602.435167,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,193,602.893958,605.813542,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,194,608.35775,610.35975,R5,SPEAKER_08,R6,scored,False,False
+Friends: Funniest Moments,pyannote,195,612.36175,613.029083,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,196,614.905958,619.076792,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,197,619.076792,620.828542,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,198,623.956667,624.707417,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,199,624.707417,626.250625,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,200,628.169208,632.38175,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,201,632.38175,634.050083,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,202,634.342042,634.800833,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,203,635.593292,636.552583,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,204,641.599292,644.310333,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,205,657.281625,657.531875,R5,SPEAKER_08,R6,scored,False,False
+Friends: Funniest Moments,pyannote,206,657.531875,658.90825,R6,SPEAKER_08,R6,scored,True,False
+Friends: Funniest Moments,pyannote,207,668.542875,669.043375,R1,SPEAKER_08,R6,scored,False,False
+Friends: Funniest Moments,pyannote,208,669.585583,670.628292,R1,SPEAKER_08,R6,scored,False,False
+Friends: Funniest Moments,pyannote,209,671.629292,673.089083,R1,SPEAKER_03,R1,scored,True,False
+Friends: Funniest Moments,pyannote,210,675.216208,677.259917,R1,SPEAKER_03,R1,scored,True,False
+Friends: Funniest Moments,pyannote,211,681.722708,682.098083,R4,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,212,683.1825,684.225208,R1,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,213,684.684,686.310625,R4,SPEAKER_00,R2,scored,False,False
+Friends: Funniest Moments,pyannote,214,686.852833,689.063375,R4,SPEAKER_00,R2,scored,False,False
+Friends: Funniest Moments,pyannote,215,690.523167,691.649292,R1,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,216,696.362333,697.863833,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,217,698.114083,699.657292,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,218,700.074375,701.617583,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,219,701.617583,702.159792,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,220,702.410042,702.993958,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,221,703.2025,703.411042,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,222,703.661292,704.45375,R7,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,223,707.915542,709.2085,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,224,709.625583,711.711,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,225,711.711,712.795417,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,226,713.254208,715.381333,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,227,716.173792,718.926542,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,228,718.926542,719.510458,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,229,719.719,720.052667,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,230,720.344625,722.513458,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,231,722.888833,724.557167,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,232,724.890833,726.267208,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,233,726.47575,728.060667,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,234,751.959542,755.171083,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,235,757.673583,758.632875,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,236,758.632875,760.217792,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,237,765.931833,767.767,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,238,768.01725,768.934833,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,239,768.934833,771.228792,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,240,771.729292,772.354917,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,241,772.730292,773.773,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,242,776.066958,777.234792,R7,SPEAKER_05,R8,scored,False,False
+Friends: Funniest Moments,pyannote,243,779.987542,781.03025,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,244,781.322208,783.449333,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,245,783.449333,784.450333,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,246,784.700583,786.202083,R7,SPEAKER_05,R8,scored,False,False
+Friends: Funniest Moments,pyannote,247,786.202083,789.330208,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,248,789.330208,791.207083,R7,SPEAKER_07,,scored,False,False
+Friends: Funniest Moments,pyannote,249,791.207083,792.625167,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,250,793.334208,794.460333,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,251,794.835708,795.461333,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,252,797.213083,798.214083,R8,SPEAKER_05,R8,scored,True,False
+Friends: Funniest Moments,pyannote,253,798.464333,798.923125,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,254,809.475333,811.56075,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,255,812.102958,813.646167,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,256,814.146667,814.647167,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,257,817.06625,818.56775,R7,SPEAKER_00,R2,scored,False,True
+Friends: Funniest Moments,pyannote,258,830.621458,832.248083,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,259,832.248083,834.250083,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,pyannote,260,834.500333,835.501333,R8,SPEAKER_06,R7,scored,False,False
+Friends: Funniest Moments,pyannote,261,835.793292,836.460625,R7,SPEAKER_06,R7,scored,True,False
+Friends: Funniest Moments,nemotron,1,16.433083,17.76775,R3,speaker_0,R1,scored,False,False
+Friends: Funniest Moments,nemotron,2,19.394375,22.355667,R3,speaker_0,R1,scored,False,False
+Friends: Funniest Moments,nemotron,3,23.77375,24.858167,R1,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,4,26.943583,29.904875,R1,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,5,30.905875,31.448083,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,6,31.740042,32.490792,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,7,32.699333,34.492792,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,8,37.203833,39.497792,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,9,40.165125,40.498792,R1,speaker_0,R1,scored,True,True
+Friends: Funniest Moments,nemotron,10,43.835458,43.960583,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,11,43.960583,44.127417,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,12,44.711333,46.504792,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,13,46.504792,49.382667,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,14,52.5525,53.762042,R7,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,15,53.762042,54.137417,R7,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,16,54.137417,55.180125,R7,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,17,55.180125,56.473083,R7,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,18,56.473083,57.724333,R7,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,19,58.016292,59.517792,R7,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,20,61.102708,62.103708,R1,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,21,63.480083,64.856458,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,22,64.856458,65.899167,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,23,94.969875,96.554792,R4,speaker_2,R4,scored,True,False
+Friends: Funniest Moments,nemotron,24,96.554792,98.181417,R4,speaker_2,R4,scored,True,False
+Friends: Funniest Moments,nemotron,25,98.181417,99.34925,R4,speaker_2,R4,scored,True,False
+Friends: Funniest Moments,nemotron,26,105.188417,106.523083,R4,speaker_2,R4,scored,True,False
+Friends: Funniest Moments,nemotron,27,107.6075,108.942167,R4,speaker_2,R4,scored,True,False
+Friends: Funniest Moments,nemotron,28,108.942167,109.818042,R6,speaker_3,R2,scored,False,False
+Friends: Funniest Moments,nemotron,29,109.818042,110.985875,R6,speaker_3,R2,scored,False,False
+Friends: Funniest Moments,nemotron,30,110.985875,111.444667,R6,speaker_3,R2,scored,False,False
+Friends: Funniest Moments,nemotron,31,111.444667,112.86275,R6,speaker_3,R2,scored,False,False
+Friends: Funniest Moments,nemotron,32,113.196417,114.781333,R4,speaker_2,R4,scored,True,False
+Friends: Funniest Moments,nemotron,33,154.779625,156.156,R1,speaker_4,,scored,False,False
+Friends: Funniest Moments,nemotron,34,156.573083,159.90975,R1,speaker_4,,scored,False,False
+Friends: Funniest Moments,nemotron,35,159.90975,162.787625,R1,speaker_4,,scored,False,False
+Friends: Funniest Moments,nemotron,36,162.787625,162.996167,R3,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,37,165.373542,166.040875,R7,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,38,166.41625,167.292125,R5,speaker_5,R8,scored,False,False
+Friends: Funniest Moments,nemotron,39,167.292125,168.543375,R5,speaker_5,R8,scored,False,False
+Friends: Funniest Moments,nemotron,40,169.294125,172.088583,R5,speaker_5,R8,scored,False,False
+Friends: Funniest Moments,nemotron,41,192.066875,193.6935,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,42,197.488958,199.44925,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,43,199.908042,200.7005,R2,speaker_3,R2,scored,True,False
+Friends: Funniest Moments,nemotron,44,200.909042,201.159292,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,45,240.073167,240.406833,R7,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,46,242.408833,242.49225,R7,speaker_3,R2,scored,False,False
+Friends: Funniest Moments,nemotron,47,242.49225,243.910333,R2,speaker_3,R2,scored,True,False
+Friends: Funniest Moments,nemotron,48,244.369125,244.702792,R7,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,49,262.804208,263.680083,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,50,268.935333,269.394125,R3,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,51,269.644375,270.687083,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,52,270.687083,271.479542,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,53,273.398125,274.274,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,54,274.565958,275.692083,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,55,277.819208,278.278,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,56,278.7785,281.364417,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,57,281.614667,282.407125,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,58,284.075458,287.870917,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,59,287.870917,291.124167,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,60,291.124167,293.835208,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,61,294.54425,297.297,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,62,297.297,298.089458,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,63,300.55025,300.633667,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,64,300.633667,302.05175,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,65,305.55525,307.05675,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,66,307.974333,308.391417,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,67,308.391417,310.101458,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,68,310.393417,310.8105,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,69,310.8105,311.06075,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,70,311.894917,313.06275,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,71,313.06275,315.023042,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,72,315.023042,315.940625,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,73,316.149167,317.317,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,74,340.548542,342.050042,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,75,345.011333,346.763083,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,76,347.09675,347.388708,R7,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,77,349.59925,350.558542,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,78,350.558542,351.351,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,79,351.351,352.060042,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,80,352.435417,353.227875,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,81,353.227875,354.270583,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,82,355.229875,355.355,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,83,360.068042,360.10975,R7,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,84,370.536833,371.62125,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,85,372.538833,376.417708,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,86,376.417708,377.710667,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,87,379.712667,380.088042,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,88,382.340292,383.8835,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,89,385.176458,387.345292,R7,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,90,388.054333,391.432708,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,91,391.432708,393.226167,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,92,395.478417,396.729667,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,93,397.105042,398.564833,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,94,398.564833,399.732667,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,95,399.732667,400.691958,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,96,400.691958,401.401,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,97,403.528125,406.614542,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,98,406.9065,408.699958,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,99,408.699958,410.66025,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,100,412.870792,412.995917,R3,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,101,412.995917,413.538125,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,102,414.831083,414.956208,R7,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,103,416.207458,416.958208,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,104,417.750667,418.876792,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,105,420.16975,420.586833,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,106,421.087333,421.421,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,107,421.712958,421.9215,R1,speaker_0,R1,scored,True,True
+Friends: Funniest Moments,nemotron,108,422.17175,422.463708,R6,speaker_3,R2,scored,False,False
+Friends: Funniest Moments,nemotron,109,422.880792,423.423,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,110,423.423,423.631542,R1,speaker_0,R1,scored,True,True
+Friends: Funniest Moments,nemotron,111,424.132042,424.715958,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,112,425.425,425.800375,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,113,426.342583,429.262167,R1,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,114,430.096333,432.140042,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,115,432.140042,432.723958,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,116,432.723958,433.099333,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,117,433.099333,433.641542,R1,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,118,433.641542,433.724958,R6,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,119,436.18575,436.352583,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,120,436.352583,436.644542,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,121,436.894792,437.019917,R6,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,122,437.68725,438.229458,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,123,438.229458,438.771667,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,124,440.398292,441.065625,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,125,443.317875,443.901792,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,126,445.236458,446.028917,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,127,448.156042,448.990208,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,128,450.783667,451.451,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,129,451.909792,452.410292,R1,speaker_0,R1,scored,True,True
+Friends: Funniest Moments,nemotron,130,452.618833,453.035917,R1,speaker_0,R1,scored,True,True
+Friends: Funniest Moments,nemotron,131,453.369583,454.162042,R1,speaker_0,R1,scored,True,True
+Friends: Funniest Moments,nemotron,132,458.916792,461.252458,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,133,461.252458,461.71125,R1,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,134,465.047917,465.256458,R6,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,135,465.256458,466.21575,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,136,466.21575,468.593125,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,137,468.593125,468.926792,R1,speaker_0,R1,scored,True,True
+Friends: Funniest Moments,nemotron,138,469.9695,470.094625,R7,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,139,477.185042,478.72825,R1,speaker_0,R1,scored,True,True
+Friends: Funniest Moments,nemotron,140,481.23075,482.9825,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,141,483.191042,484.275458,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,142,484.942792,486.110625,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,143,488.779958,489.23875,R1,speaker_0,R1,scored,True,True
+Friends: Funniest Moments,nemotron,144,489.23875,490.406583,R1,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,145,493.367875,494.24375,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,146,494.24375,494.410583,R3,speaker_7,R6,scored,False,False
+Friends: Funniest Moments,nemotron,147,494.410583,495.453292,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,148,495.703542,495.912083,R7,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,149,495.912083,496.329167,R3,speaker_7,R6,scored,False,False
+Friends: Funniest Moments,nemotron,150,496.329167,496.579417,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,151,496.579417,498.039208,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,152,498.039208,501.0005,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,153,501.0005,503.669833,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,154,503.961792,505.296458,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,155,506.964792,507.965792,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,156,508.341167,509.675833,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,157,509.926083,510.051208,R3,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,158,510.051208,510.343167,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,159,510.343167,510.51,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,160,514.180333,515.389875,R6,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,161,520.26975,521.062208,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,162,521.062208,521.812958,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,163,521.812958,523.0225,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,164,525.358167,526.526,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,165,526.526,528.0275,R3,speaker_1,R3,scored,True,False
+Friends: Funniest Moments,nemotron,166,529.570708,530.655125,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,167,531.0305,532.490292,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,168,537.245042,542.875667,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,169,543.251042,544.627417,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,170,545.628417,548.089208,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,171,548.464583,548.756542,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,172,548.756542,549.215333,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,173,549.590708,550.29975,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,174,552.468583,553.469583,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,175,554.929375,556.30575,R3,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,176,558.30775,558.641417,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,177,558.641417,562.144917,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,178,562.144917,563.938375,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,179,563.938375,564.939375,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,180,564.939375,567.733833,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,181,568.0675,570.403167,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,182,570.653417,572.0715,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,183,573.739833,574.782542,R3,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,184,574.782542,577.868958,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,185,577.868958,578.953375,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,186,579.495583,581.247333,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,187,581.247333,581.789542,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,188,584.0835,586.002083,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,189,594.510583,595.052792,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,190,600.0995,600.34975,R5,speaker_7,R6,scored,False,False
+Friends: Funniest Moments,nemotron,191,600.34975,600.474875,R5,speaker_7,R6,scored,False,False
+Friends: Funniest Moments,nemotron,192,600.474875,602.435167,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,193,602.893958,605.813542,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,194,608.35775,610.35975,R5,speaker_7,R6,scored,False,False
+Friends: Funniest Moments,nemotron,195,612.36175,613.029083,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,196,614.905958,619.076792,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,197,619.076792,620.828542,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,198,623.956667,624.707417,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,199,624.707417,626.250625,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,200,628.169208,632.38175,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,201,632.38175,634.050083,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,202,634.342042,634.800833,R6,speaker_5,R8,scored,False,False
+Friends: Funniest Moments,nemotron,203,635.593292,636.552583,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,204,641.599292,644.310333,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,205,657.281625,657.531875,R5,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,206,657.531875,658.90825,R6,speaker_7,R6,scored,True,False
+Friends: Funniest Moments,nemotron,207,668.542875,669.043375,R1,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,208,669.585583,670.628292,R1,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,209,671.629292,673.089083,R1,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,210,675.216208,677.259917,R1,speaker_1,R3,scored,False,False
+Friends: Funniest Moments,nemotron,211,681.722708,682.098083,R4,speaker_2,R4,scored,True,False
+Friends: Funniest Moments,nemotron,212,683.1825,684.225208,R1,speaker_0,R1,scored,True,True
+Friends: Funniest Moments,nemotron,213,684.684,686.310625,R4,speaker_2,R4,scored,True,False
+Friends: Funniest Moments,nemotron,214,686.852833,689.063375,R4,speaker_2,R4,scored,True,False
+Friends: Funniest Moments,nemotron,215,690.523167,691.649292,R1,speaker_0,R1,scored,True,True
+Friends: Funniest Moments,nemotron,216,696.362333,697.863833,R8,speaker_5,R8,scored,True,False
+Friends: Funniest Moments,nemotron,217,698.114083,699.657292,R8,speaker_5,R8,scored,True,False
+Friends: Funniest Moments,nemotron,218,700.074375,701.617583,R7,speaker_5,R8,scored,False,False
+Friends: Funniest Moments,nemotron,219,701.617583,702.159792,R7,speaker_5,R8,scored,False,False
+Friends: Funniest Moments,nemotron,220,702.410042,702.993958,R8,speaker_5,R8,scored,True,False
+Friends: Funniest Moments,nemotron,221,703.2025,703.411042,R7,speaker_5,R8,scored,False,False
+Friends: Funniest Moments,nemotron,222,703.661292,704.45375,R7,speaker_5,R8,scored,False,False
+Friends: Funniest Moments,nemotron,223,707.915542,709.2085,R8,speaker_7,R6,scored,False,False
+Friends: Funniest Moments,nemotron,224,709.625583,711.711,R8,speaker_7,R6,scored,False,False
+Friends: Funniest Moments,nemotron,225,711.711,712.795417,R8,speaker_7,R6,scored,False,False
+Friends: Funniest Moments,nemotron,226,713.254208,715.381333,R8,speaker_7,R6,scored,False,False
+Friends: Funniest Moments,nemotron,227,716.173792,718.926542,R8,speaker_7,R6,scored,False,False
+Friends: Funniest Moments,nemotron,228,718.926542,719.510458,R8,speaker_7,R6,scored,False,False
+Friends: Funniest Moments,nemotron,229,719.719,720.052667,R8,speaker_7,R6,scored,False,False
+Friends: Funniest Moments,nemotron,230,720.344625,722.513458,R7,speaker_5,R8,scored,False,False
+Friends: Funniest Moments,nemotron,231,722.888833,724.557167,R7,speaker_5,R8,scored,False,False
+Friends: Funniest Moments,nemotron,232,724.890833,726.267208,R8,speaker_7,R6,scored,False,False
+Friends: Funniest Moments,nemotron,233,726.47575,728.060667,R7,speaker_5,R8,scored,False,False
+Friends: Funniest Moments,nemotron,234,751.959542,755.171083,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,235,757.673583,758.632875,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,236,758.632875,760.217792,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,237,765.931833,767.767,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,238,768.01725,768.934833,R8,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,239,768.934833,771.228792,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,240,771.729292,772.354917,R8,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,241,772.730292,773.773,R8,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,242,776.066958,777.234792,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,243,779.987542,781.03025,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,244,781.322208,783.449333,R8,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,245,783.449333,784.450333,R8,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,246,784.700583,786.202083,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,247,786.202083,789.330208,R8,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,248,789.330208,791.207083,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,249,791.207083,792.625167,R8,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,250,793.334208,794.460333,R8,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,251,794.835708,795.461333,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,252,797.213083,798.214083,R8,speaker_5,R8,scored,True,False
+Friends: Funniest Moments,nemotron,253,798.464333,798.923125,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,254,809.475333,811.56075,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,255,812.102958,813.646167,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,256,814.146667,814.647167,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,257,817.06625,818.56775,R7,speaker_0,R1,scored,False,True
+Friends: Funniest Moments,nemotron,258,830.621458,832.248083,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,259,832.248083,834.250083,R7,speaker_6,R7,scored,True,False
+Friends: Funniest Moments,nemotron,260,834.500333,835.501333,R8,speaker_6,R7,scored,False,False
+Friends: Funniest Moments,nemotron,261,835.793292,836.460625,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,1,0.32,1.6,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,2,1.6,3.56,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,3,5.44,8.12,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,4,10.6,12.72,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,5,12.72,14.92,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,6,14.92,15.8,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,7,16.0,16.24,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,8,16.24,18.08,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,9,19.32,20.44,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,10,22.48,23.48,R2,SPEAKER_07,R1,scored,False,False
+Friends: Christmas Episodes,pyannote,11,23.8,25.36,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,12,25.76,25.8,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,13,25.8,27.6,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,14,29.36,31.32,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,15,33.32,35.12,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,16,35.76,36.08,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,17,36.32,38.92,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,18,38.92,41.72,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,19,44.44,44.6,R5,SPEAKER_06,R8,scored,False,False
+Friends: Christmas Episodes,pyannote,20,44.88,45.08,R1,SPEAKER_00,R6,scored,False,True
+Friends: Christmas Episodes,pyannote,21,45.08,45.84,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,22,45.84,45.88,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,23,45.88,47.16,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,24,49.04,49.16,R8,SPEAKER_04,R5,scored,False,False
+Friends: Christmas Episodes,pyannote,25,49.16,50.8,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,26,51.24,53.36,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,27,54.32,55.28,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,28,55.8,57.36,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,29,60.92,64.56,R6,SPEAKER_00,R6,scored,True,False
+Friends: Christmas Episodes,pyannote,30,66.72,69.24,R6,SPEAKER_00,R6,scored,True,False
+Friends: Christmas Episodes,pyannote,31,70.8,72.6,R6,SPEAKER_00,R6,scored,True,False
+Friends: Christmas Episodes,pyannote,32,75.08,76.4,R6,SPEAKER_00,R6,scored,True,False
+Friends: Christmas Episodes,pyannote,33,79.6,80.8,R6,SPEAKER_00,R6,scored,True,False
+Friends: Christmas Episodes,pyannote,34,82.56,85.16,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,35,85.16,87.92,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,36,89.32,90.76,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,37,90.76,93.92,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,38,93.92,95.84,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,39,97.36,99.64,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,40,100.6,101.52,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,41,104.6,107.36,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,42,107.68,109.16,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,43,113.2,117.24,R3,SPEAKER_05,R7,scored,False,False
+Friends: Christmas Episodes,pyannote,44,117.24,117.88,R3,SPEAKER_05,R7,scored,False,False
+Friends: Christmas Episodes,pyannote,45,118.36,120.16,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,46,127.68,128.96,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,47,128.96,129.0,R6,SPEAKER_00,R6,scored,True,True
+Friends: Christmas Episodes,pyannote,48,130.36,130.96,R5,SPEAKER_02,R9,scored,False,False
+Friends: Christmas Episodes,pyannote,49,131.44,132.04,R6,SPEAKER_02,R9,scored,False,False
+Friends: Christmas Episodes,pyannote,50,133.48,133.92,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,51,133.92,136.16,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,52,142.28,143.72,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,53,143.72,144.12,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,54,147.72,149.04,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,55,150.64,151.08,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,56,151.08,151.84,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,57,155.92,156.68,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,58,157.2,158.64,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,59,158.64,160.16,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,60,161.12,161.6,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,61,162.04,165.88,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,62,169.2,169.48,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,63,171.8,173.16,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,64,173.16,173.56,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,65,174.24,175.84,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,66,177.36,177.88,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,67,185.92,188.64,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,68,189.24,193.04,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,69,195.28,195.8,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,70,195.8,196.8,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,71,197.28,198.12,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,72,199.16,199.92,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,73,200.8,201.24,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,74,201.64,202.12,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,75,203.12,205.36,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,76,205.68,205.96,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,77,207.64,207.68,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,78,207.68,208.68,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,79,209.44,210.92,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,80,210.92,211.56,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,81,214.36,214.68,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,82,214.68,216.64,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,83,216.64,220.2,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,84,222.56,222.6,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,85,222.84,223.08,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,86,225.04,226.2,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,87,226.52,227.28,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,88,227.76,228.48,R4,SPEAKER_01,R4,scored,True,False
+Friends: Christmas Episodes,pyannote,89,229.2,230.28,R4,SPEAKER_01,R4,scored,True,False
+Friends: Christmas Episodes,pyannote,90,231.72,232.48,R4,SPEAKER_01,R4,scored,True,False
+Friends: Christmas Episodes,pyannote,91,234.4,234.96,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,92,234.96,236.6,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,93,237.12,237.52,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,94,237.52,240.8,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,95,240.8,241.84,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,96,242.08,243.04,R4,SPEAKER_01,R4,scored,True,False
+Friends: Christmas Episodes,pyannote,97,243.4,246.2,R4,SPEAKER_01,R4,scored,True,False
+Friends: Christmas Episodes,pyannote,98,246.64,246.84,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,99,247.04,248.68,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,100,249.56,249.88,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,101,249.88,250.16,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,102,252.08,253.08,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,103,254.12,254.92,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,104,255.96,258.76,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,105,259.44,259.76,R4,SPEAKER_01,R4,scored,True,False
+Friends: Christmas Episodes,pyannote,106,260.6,262.48,R4,SPEAKER_01,R4,scored,True,False
+Friends: Christmas Episodes,pyannote,107,263.96,264.92,R4,SPEAKER_01,R4,scored,True,False
+Friends: Christmas Episodes,pyannote,108,268.72,271.4,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,109,275.44,278.64,R4,SPEAKER_01,R4,scored,True,False
+Friends: Christmas Episodes,pyannote,110,280.24,280.56,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,111,280.56,283.64,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,112,286.6,286.96,R4,SPEAKER_01,R4,scored,True,False
+Friends: Christmas Episodes,pyannote,113,287.52,287.64,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,114,288.2,290.84,R4,SPEAKER_01,R4,scored,True,False
+Friends: Christmas Episodes,pyannote,115,293.64,295.0,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,116,302.72,305.56,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,117,308.2,308.6,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,118,308.88,310.2,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,119,310.48,312.84,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,120,314.04,315.72,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,121,316.12,317.32,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,122,317.52,318.72,R5,SPEAKER_03,R3,scored,False,False
+Friends: Christmas Episodes,pyannote,123,318.72,319.8,R5,SPEAKER_02,R9,scored,False,False
+Friends: Christmas Episodes,pyannote,124,322.52,324.64,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,125,324.64,325.64,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,126,325.64,326.44,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,127,334.28,336.04,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,128,337.24,338.32,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,129,339.64,340.88,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,130,341.56,345.0,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,131,348.6,349.96,R1,SPEAKER_08,R2,scored,False,False
+Friends: Christmas Episodes,pyannote,132,353.28,355.92,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,133,359.52,361.72,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,134,361.72,361.96,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,135,362.52,362.56,R1,SPEAKER_04,R5,scored,False,False
+Friends: Christmas Episodes,pyannote,136,362.56,363.12,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,137,365.24,366.6,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,138,367.0,367.84,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,139,372.16,373.96,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,140,374.4,376.28,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,141,379.12,381.24,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,142,381.48,383.76,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,143,386.24,387.48,R1,SPEAKER_06,R8,scored,False,False
+Friends: Christmas Episodes,pyannote,144,390.68,392.16,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,145,400.36,402.04,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,146,402.4,403.08,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,147,403.64,404.56,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,148,405.36,406.0,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,149,406.0,407.36,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,150,409.56,409.8,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,151,409.8,411.08,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,152,412.52,413.4,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,153,413.4,417.2,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,154,417.2,421.96,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,155,423.56,425.24,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,156,425.24,426.4,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,157,427.32,429.4,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,158,429.4,432.92,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,159,434.12,434.52,R3,SPEAKER_04,R5,scored,False,False
+Friends: Christmas Episodes,pyannote,160,437.28,437.64,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,161,439.4,442.64,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,162,442.64,445.68,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,163,450.24,452.0,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,164,453.4,454.76,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,165,454.76,455.88,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,166,456.84,458.24,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,167,459.32,460.52,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,168,462.72,464.28,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,169,465.08,466.76,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,170,467.6,468.64,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,171,470.56,472.8,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,172,476.92,480.92,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,173,484.48,484.52,R5,SPEAKER_00,R6,scored,False,True
+Friends: Christmas Episodes,pyannote,174,484.52,484.76,R5,SPEAKER_02,R9,scored,False,False
+Friends: Christmas Episodes,pyannote,175,484.76,484.84,R5,SPEAKER_02,R9,scored,False,False
+Friends: Christmas Episodes,pyannote,176,484.84,488.12,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,177,488.12,488.4,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,178,488.4,490.08,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,179,490.68,491.44,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,180,492.44,494.32,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,181,494.84,497.84,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,182,499.96,500.52,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,183,500.76,503.08,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,184,503.08,504.36,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,185,507.88,511.52,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,186,511.52,512.92,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,187,513.76,514.84,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,188,516.2,516.64,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,189,517.36,517.92,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,190,517.92,520.72,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,191,520.72,522.36,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,192,522.76,524.52,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,193,524.52,526.68,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,194,528.76,530.2,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,195,533.68,536.2,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,196,536.2,538.6,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,197,540.68,541.04,R9,SPEAKER_02,R9,scored,True,False
+Friends: Christmas Episodes,pyannote,198,541.04,541.52,R9,SPEAKER_07,R1,scored,False,False
+Friends: Christmas Episodes,pyannote,199,542.56,543.44,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,200,543.44,544.44,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,201,545.16,547.56,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,202,549.88,551.16,R9,SPEAKER_07,R1,scored,False,False
+Friends: Christmas Episodes,pyannote,203,552.36,554.6,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,204,554.6,556.04,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,205,556.44,556.84,R3,SPEAKER_04,R5,scored,False,False
+Friends: Christmas Episodes,pyannote,206,557.36,557.4,R2,SPEAKER_03,R3,scored,False,False
+Friends: Christmas Episodes,pyannote,207,557.36,558.8,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,208,558.8,560.28,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,209,560.28,561.32,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,210,564.92,564.96,R5,SPEAKER_03,R3,scored,False,False
+Friends: Christmas Episodes,pyannote,211,564.96,566.6,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,212,570.28,572.44,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,213,572.44,573.64,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,214,582.76,582.8,R5,SPEAKER_02,R9,scored,False,False
+Friends: Christmas Episodes,pyannote,215,582.8,583.76,R5,SPEAKER_02,R9,scored,False,False
+Friends: Christmas Episodes,pyannote,216,585.08,585.12,R2,SPEAKER_02,R9,scored,False,False
+Friends: Christmas Episodes,pyannote,217,585.12,586.24,R3,SPEAKER_02,R9,scored,False,False
+Friends: Christmas Episodes,pyannote,218,587.68,588.48,R5,SPEAKER_02,R9,scored,False,False
+Friends: Christmas Episodes,pyannote,219,589.08,590.6,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,220,590.6,592.48,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,221,592.48,594.8,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,222,599.36,600.08,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,223,600.44,601.72,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,224,602.36,604.24,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,225,606.16,606.4,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,226,606.4,608.72,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,227,611.56,613.04,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,228,613.04,614.08,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,229,614.52,617.48,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,230,618.16,619.56,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,231,620.44,622.48,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,232,622.48,625.28,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,233,625.28,626.68,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,234,628.76,630.32,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,235,634.36,634.88,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,236,634.88,636.24,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,237,642.56,644.16,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,238,644.44,646.0,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,239,646.36,646.52,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,240,646.52,648.52,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,241,649.0,650.4,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,242,650.64,652.84,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,243,655.04,656.52,R2,SPEAKER_08,R2,scored,True,False
+Friends: Christmas Episodes,pyannote,244,661.08,661.32,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,245,661.32,662.76,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,246,662.76,663.48,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,247,663.96,664.36,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,248,665.32,665.88,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,249,665.88,668.0,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,250,668.0,669.6,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,251,669.6,670.36,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,252,670.36,671.24,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,253,672.84,675.48,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,254,675.48,676.6,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,255,678.72,679.2,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,256,680.16,680.92,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,257,681.52,683.08,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,258,683.56,684.76,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,259,685.04,686.12,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,260,686.12,686.92,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,261,691.56,691.88,R5,SPEAKER_00,R6,scored,False,True
+Friends: Christmas Episodes,pyannote,262,692.08,692.28,R1,SPEAKER_00,R6,scored,False,True
+Friends: Christmas Episodes,pyannote,263,692.76,692.8,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,264,692.76,693.76,R5,SPEAKER_03,R3,scored,False,False
+Friends: Christmas Episodes,pyannote,265,694.4,696.08,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,266,696.32,696.52,R5,SPEAKER_03,R3,scored,False,False
+Friends: Christmas Episodes,pyannote,267,697.0,697.88,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,268,698.24,700.88,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,269,701.36,704.96,R3,SPEAKER_03,R3,scored,True,False
+Friends: Christmas Episodes,pyannote,270,708.68,711.6,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,271,717.52,718.36,R7,SPEAKER_04,R5,scored,False,False
+Friends: Christmas Episodes,pyannote,272,720.08,720.44,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,273,720.44,721.2,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,274,723.8,724.52,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,275,724.76,726.6,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,276,726.6,727.4,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,277,727.4,727.72,R2,SPEAKER_02,R9,scored,False,False
+Friends: Christmas Episodes,pyannote,278,727.72,728.04,R3,SPEAKER_04,R5,scored,False,False
+Friends: Christmas Episodes,pyannote,279,734.04,736.64,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,280,738.44,741.2,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,281,742.44,744.96,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,282,745.32,747.6,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,283,752.36,753.48,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,284,753.48,754.08,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,285,754.08,756.76,R7,SPEAKER_05,R7,scored,True,False
+Friends: Christmas Episodes,pyannote,286,758.6,759.92,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,287,759.92,761.56,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,288,763.44,766.2,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,289,766.52,767.28,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,290,767.32,769.28,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,291,769.28,769.52,R5,SPEAKER_00,R6,scored,False,True
+Friends: Christmas Episodes,pyannote,292,770.36,771.32,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,293,772.84,775.72,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,294,775.72,776.92,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,295,778.28,778.68,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,296,778.68,779.0,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,297,779.24,779.56,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,298,782.12,782.72,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,299,784.48,785.4,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,300,787.4,787.72,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,301,787.72,789.44,R1,SPEAKER_07,R1,scored,True,False
+Friends: Christmas Episodes,pyannote,302,790.48,792.04,R8,SPEAKER_06,R8,scored,True,False
+Friends: Christmas Episodes,pyannote,303,794.56,797.64,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,304,798.04,801.36,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,305,802.56,805.8,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,306,806.24,810.04,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,307,811.04,812.56,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,308,815.68,819.36,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,309,821.72,827.64,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,310,829.2,836.76,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,311,836.96,844.88,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,pyannote,312,845.16,846.56,R5,SPEAKER_04,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,1,0.32,1.6,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,2,1.6,3.56,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,3,5.44,8.12,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,4,10.6,12.72,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,5,12.72,14.92,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,6,14.92,15.8,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,7,16.0,16.24,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,8,16.24,18.08,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,9,19.32,20.44,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,10,22.48,23.48,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,11,23.8,25.36,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,12,25.76,25.8,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,13,25.8,27.6,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,14,29.36,31.32,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,15,33.32,35.12,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,16,35.76,36.08,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,17,36.32,38.92,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,18,38.92,41.72,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,19,44.44,44.6,R5,speaker_0,R5,scored,True,True
+Friends: Christmas Episodes,nemotron,20,44.88,45.08,R1,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,21,45.08,45.84,R8,speaker_0,R5,scored,False,False
+Friends: Christmas Episodes,nemotron,22,45.84,45.88,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,23,45.88,47.16,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,24,49.04,49.16,R8,speaker_0,R5,scored,False,False
+Friends: Christmas Episodes,nemotron,25,49.16,50.8,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,26,51.24,53.36,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,27,54.32,55.28,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,28,55.8,57.36,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,29,60.92,64.56,R6,speaker_5,R6,scored,True,False
+Friends: Christmas Episodes,nemotron,30,66.72,69.24,R6,speaker_5,R6,scored,True,False
+Friends: Christmas Episodes,nemotron,31,70.8,72.6,R6,speaker_5,R6,scored,True,False
+Friends: Christmas Episodes,nemotron,32,75.08,76.4,R6,speaker_5,R6,scored,True,False
+Friends: Christmas Episodes,nemotron,33,79.6,80.8,R6,speaker_5,R6,scored,True,False
+Friends: Christmas Episodes,nemotron,34,82.56,85.16,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,35,85.16,87.92,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,36,89.32,90.76,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,37,90.76,93.92,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,38,93.92,95.84,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,39,97.36,99.64,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,40,100.6,101.52,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,41,104.6,107.36,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,42,107.68,109.16,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,43,113.2,117.24,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,44,117.24,117.88,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,45,118.36,120.16,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,46,127.68,128.96,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,47,128.96,129.0,R6,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,48,130.36,130.96,R5,speaker_0,R5,scored,True,True
+Friends: Christmas Episodes,nemotron,49,131.44,132.04,R6,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,50,133.48,133.92,R5,speaker_0,R5,scored,True,True
+Friends: Christmas Episodes,nemotron,51,133.92,136.16,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,52,142.28,143.72,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,53,143.72,144.12,R1,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,54,147.72,149.04,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,55,150.64,151.08,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,56,151.08,151.84,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,57,155.92,156.68,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,58,157.2,158.64,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,59,158.64,160.16,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,60,161.12,161.6,R8,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,61,162.04,165.88,R8,speaker_1,R2,scored,False,False
+Friends: Christmas Episodes,nemotron,62,169.2,169.48,R8,speaker_1,R2,scored,False,False
+Friends: Christmas Episodes,nemotron,63,171.8,173.16,R7,speaker_3,R3,scored,False,False
+Friends: Christmas Episodes,nemotron,64,173.16,173.56,R8,speaker_1,R2,scored,False,False
+Friends: Christmas Episodes,nemotron,65,174.24,175.84,R8,speaker_1,R2,scored,False,False
+Friends: Christmas Episodes,nemotron,66,177.36,177.88,R8,speaker_1,R2,scored,False,False
+Friends: Christmas Episodes,nemotron,67,185.92,188.64,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,68,189.24,193.04,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,69,195.28,195.8,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,70,195.8,196.8,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,71,197.28,198.12,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,72,199.16,199.92,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,73,200.8,201.24,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,74,201.64,202.12,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,75,203.12,205.36,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,76,205.68,205.96,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,77,207.64,207.68,R3,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,78,207.68,208.68,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,79,209.44,210.92,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,80,210.92,211.56,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,81,214.36,214.68,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,82,214.68,216.64,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,83,216.64,220.2,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,84,222.56,222.6,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,85,222.84,223.08,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,86,225.04,226.2,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,87,226.52,227.28,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,88,227.76,228.48,R4,speaker_7,R4,scored,True,False
+Friends: Christmas Episodes,nemotron,89,229.2,230.28,R4,speaker_7,R4,scored,True,False
+Friends: Christmas Episodes,nemotron,90,231.72,232.48,R4,speaker_7,R4,scored,True,False
+Friends: Christmas Episodes,nemotron,91,234.4,234.96,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,92,234.96,236.6,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,93,237.12,237.52,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,94,237.52,240.8,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,95,240.8,241.84,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,96,242.08,243.04,R4,speaker_7,R4,scored,True,False
+Friends: Christmas Episodes,nemotron,97,243.4,246.2,R4,speaker_7,R4,scored,True,False
+Friends: Christmas Episodes,nemotron,98,246.64,246.84,R7,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,99,247.04,248.68,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,100,249.56,249.88,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,101,249.88,250.16,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,102,252.08,253.08,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,103,254.12,254.92,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,104,255.96,258.76,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,105,259.44,259.76,R4,speaker_7,R4,scored,True,False
+Friends: Christmas Episodes,nemotron,106,260.6,262.48,R4,speaker_7,R4,scored,True,False
+Friends: Christmas Episodes,nemotron,107,263.96,264.92,R4,speaker_7,R4,scored,True,False
+Friends: Christmas Episodes,nemotron,108,268.72,271.4,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,109,275.44,278.64,R4,speaker_7,R4,scored,True,False
+Friends: Christmas Episodes,nemotron,110,280.24,280.56,R7,speaker_3,R3,scored,False,False
+Friends: Christmas Episodes,nemotron,111,280.56,283.64,R7,speaker_3,R3,scored,False,False
+Friends: Christmas Episodes,nemotron,112,286.6,286.96,R4,speaker_7,R4,scored,True,False
+Friends: Christmas Episodes,nemotron,113,287.52,287.64,R7,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,114,288.2,290.84,R4,speaker_7,R4,scored,True,False
+Friends: Christmas Episodes,nemotron,115,293.64,295.0,R7,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,116,302.72,305.56,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,117,308.2,308.6,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,118,308.88,310.2,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,119,310.48,312.84,R3,speaker_0,R5,scored,False,False
+Friends: Christmas Episodes,nemotron,120,314.04,315.72,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,121,316.12,317.32,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,122,317.52,318.72,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,123,318.72,319.8,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,124,322.52,324.64,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,125,324.64,325.64,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,126,325.64,326.44,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,127,334.28,336.04,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,128,337.24,338.32,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,129,339.64,340.88,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,130,341.56,345.0,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,131,348.6,349.96,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,132,353.28,355.92,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,133,359.52,361.72,R5,speaker_6,R7,scored,False,False
+Friends: Christmas Episodes,nemotron,134,361.72,361.96,R2,speaker_6,R7,scored,False,False
+Friends: Christmas Episodes,nemotron,135,362.52,362.56,R1,speaker_6,R7,scored,False,False
+Friends: Christmas Episodes,nemotron,136,362.56,363.12,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,137,365.24,366.6,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,138,367.0,367.84,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,139,372.16,373.96,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,140,374.4,376.28,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,141,379.12,381.24,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,142,381.48,383.76,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,143,386.24,387.48,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,144,390.68,392.16,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,145,400.36,402.04,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,146,402.4,403.08,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,147,403.64,404.56,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,148,405.36,406.0,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,149,406.0,407.36,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,150,409.56,409.8,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,151,409.8,411.08,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,152,412.52,413.4,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,153,413.4,417.2,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,154,417.2,421.96,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,155,423.56,425.24,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,156,425.24,426.4,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,157,427.32,429.4,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,158,429.4,432.92,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,159,434.12,434.52,R3,speaker_0,R5,scored,False,False
+Friends: Christmas Episodes,nemotron,160,437.28,437.64,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,161,439.4,442.64,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,162,442.64,445.68,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,163,450.24,452.0,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,164,453.4,454.76,R2,speaker_4,R8,scored,False,False
+Friends: Christmas Episodes,nemotron,165,454.76,455.88,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,166,456.84,458.24,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,167,459.32,460.52,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,168,462.72,464.28,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,169,465.08,466.76,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,170,467.6,468.64,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,171,470.56,472.8,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,172,476.92,480.92,R5,speaker_0,R5,scored,True,True
+Friends: Christmas Episodes,nemotron,173,484.48,484.52,R5,speaker_0,R5,scored,True,True
+Friends: Christmas Episodes,nemotron,174,484.52,484.76,R5,speaker_0,R5,scored,True,True
+Friends: Christmas Episodes,nemotron,175,484.76,484.84,R5,speaker_0,R5,scored,True,True
+Friends: Christmas Episodes,nemotron,176,484.84,488.12,R2,speaker_3,R3,scored,False,False
+Friends: Christmas Episodes,nemotron,177,488.12,488.4,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,178,488.4,490.08,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,179,490.68,491.44,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,180,492.44,494.32,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,181,494.84,497.84,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,182,499.96,500.52,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,183,500.76,503.08,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,184,503.08,504.36,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,185,507.88,511.52,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,186,511.52,512.92,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,187,513.76,514.84,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,188,516.2,516.64,R7,speaker_5,R6,scored,False,False
+Friends: Christmas Episodes,nemotron,189,517.36,517.92,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,190,517.92,520.72,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,191,520.72,522.36,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,192,522.76,524.52,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,193,524.52,526.68,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,194,528.76,530.2,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,195,533.68,536.2,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,196,536.2,538.6,R2,speaker_1,R2,scored,True,False
+Friends: Christmas Episodes,nemotron,197,540.68,541.04,R9,speaker_2,R1,scored,False,False
+Friends: Christmas Episodes,nemotron,198,541.04,541.52,R9,speaker_2,R1,scored,False,False
+Friends: Christmas Episodes,nemotron,199,542.56,543.44,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,200,543.44,544.44,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,201,545.16,547.56,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,202,549.88,551.16,R9,speaker_2,R1,scored,False,False
+Friends: Christmas Episodes,nemotron,203,552.36,554.6,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,204,554.6,556.04,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,205,556.44,556.84,R3,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,206,557.36,557.4,R2,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,207,557.36,558.8,R3,speaker_0,R5,scored,False,False
+Friends: Christmas Episodes,nemotron,208,558.8,560.28,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,209,560.28,561.32,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,210,564.92,564.96,R5,speaker_0,R5,scored,True,True
+Friends: Christmas Episodes,nemotron,211,564.96,566.6,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,212,570.28,572.44,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,213,572.44,573.64,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,214,582.76,582.8,R5,speaker_0,R5,scored,True,True
+Friends: Christmas Episodes,nemotron,215,582.8,583.76,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,216,585.08,585.12,R2,speaker_0,R5,scored,False,False
+Friends: Christmas Episodes,nemotron,217,585.12,586.24,R3,speaker_0,R5,scored,False,False
+Friends: Christmas Episodes,nemotron,218,587.68,588.48,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,219,589.08,590.6,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,220,590.6,592.48,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,221,592.48,594.8,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,222,599.36,600.08,R1,speaker_1,R2,scored,False,False
+Friends: Christmas Episodes,nemotron,223,600.44,601.72,R1,speaker_1,R2,scored,False,False
+Friends: Christmas Episodes,nemotron,224,602.36,604.24,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,225,606.16,606.4,R1,speaker_1,R2,scored,False,False
+Friends: Christmas Episodes,nemotron,226,606.4,608.72,R1,speaker_1,R2,scored,False,False
+Friends: Christmas Episodes,nemotron,227,611.56,613.04,R1,speaker_1,R2,scored,False,False
+Friends: Christmas Episodes,nemotron,228,613.04,614.08,R1,speaker_1,R2,scored,False,False
+Friends: Christmas Episodes,nemotron,229,614.52,617.48,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,230,618.16,619.56,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,231,620.44,622.48,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,232,622.48,625.28,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,233,625.28,626.68,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,234,628.76,630.32,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,235,634.36,634.88,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,236,634.88,636.24,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,237,642.56,644.16,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,238,644.44,646.0,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,239,646.36,646.52,R1,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,240,646.52,648.52,R1,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,241,649.0,650.4,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,242,650.64,652.84,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,243,655.04,656.52,R2,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,244,661.08,661.32,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,245,661.32,662.76,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,246,662.76,663.48,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,247,663.96,664.36,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,248,665.32,665.88,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,249,665.88,668.0,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,250,668.0,669.6,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,251,669.6,670.36,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,252,670.36,671.24,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,253,672.84,675.48,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,254,675.48,676.6,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,255,678.72,679.2,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,256,680.16,680.92,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,257,681.52,683.08,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,258,683.56,684.76,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,259,685.04,686.12,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,260,686.12,686.92,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,261,691.56,691.88,R5,speaker_0,R5,scored,True,True
+Friends: Christmas Episodes,nemotron,262,692.08,692.28,R1,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,263,692.76,692.8,R3,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,264,692.76,693.76,R5,speaker_0,R5,scored,True,True
+Friends: Christmas Episodes,nemotron,265,694.4,696.08,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,266,696.32,696.52,R5,speaker_0,R5,scored,True,True
+Friends: Christmas Episodes,nemotron,267,697.0,697.88,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,268,698.24,700.88,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,269,701.36,704.96,R3,speaker_3,R3,scored,True,False
+Friends: Christmas Episodes,nemotron,270,708.68,711.6,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,271,717.52,718.36,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,272,720.08,720.44,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,273,720.44,721.2,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,274,723.8,724.52,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,275,724.76,726.6,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,276,726.6,727.4,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,277,727.4,727.72,R2,speaker_0,R5,scored,False,False
+Friends: Christmas Episodes,nemotron,278,727.72,728.04,R3,speaker_0,R5,scored,False,False
+Friends: Christmas Episodes,nemotron,279,734.04,736.64,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,280,738.44,741.2,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,281,742.44,744.96,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,282,745.32,747.6,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,283,752.36,753.48,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,284,753.48,754.08,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,285,754.08,756.76,R7,speaker_6,R7,scored,True,False
+Friends: Christmas Episodes,nemotron,286,758.6,759.92,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,287,759.92,761.56,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,288,763.44,766.2,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,289,766.52,767.28,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,290,767.32,769.28,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,291,769.28,769.52,R5,speaker_0,R5,scored,True,True
+Friends: Christmas Episodes,nemotron,292,770.36,771.32,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,293,772.84,775.72,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,294,775.72,776.92,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,295,778.28,778.68,R8,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,296,778.68,779.0,R8,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,297,779.24,779.56,R8,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,298,782.12,782.72,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,299,784.48,785.4,R8,speaker_4,R8,scored,True,False
+Friends: Christmas Episodes,nemotron,300,787.4,787.72,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,301,787.72,789.44,R1,speaker_2,R1,scored,True,False
+Friends: Christmas Episodes,nemotron,302,790.48,792.04,R8,speaker_0,R5,scored,False,True
+Friends: Christmas Episodes,nemotron,303,794.56,797.64,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,304,798.04,801.36,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,305,802.56,805.8,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,306,806.24,810.04,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,307,811.04,812.56,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,308,815.68,819.36,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,309,821.72,827.64,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,310,829.2,836.76,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,311,836.96,844.88,R5,speaker_0,R5,scored,True,False
+Friends: Christmas Episodes,nemotron,312,845.16,846.56,R5,speaker_0,R5,scored,True,False

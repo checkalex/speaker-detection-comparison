@@ -3235,6 +3235,18 @@
             "seconds": 5.780000000000001,
             "peak": 3
           },
+          "subtitle_accuracy": {
+            "total_cues": 108,
+            "scored_cues": 106,
+            "excluded_multiple_speaker_cues": 2,
+            "correct_cues": 91,
+            "incorrect_cues": 15,
+            "accuracy_percent": 85.84905660377359,
+            "fallback_cues": 1,
+            "fallback_correct_cues": 0,
+            "supported_correct_cues": 91,
+            "supported_accuracy_percent": 85.84905660377359
+          },
           "annotated_overlap_detected_seconds": 5.713333000000006
         },
         "nemotron": {
@@ -3248,10 +3260,22 @@
             "seconds": 5.590000000000018,
             "peak": 2
           },
+          "subtitle_accuracy": {
+            "total_cues": 108,
+            "scored_cues": 106,
+            "excluded_multiple_speaker_cues": 2,
+            "correct_cues": 73,
+            "incorrect_cues": 33,
+            "accuracy_percent": 68.86792452830188,
+            "fallback_cues": 4,
+            "fallback_correct_cues": 0,
+            "supported_correct_cues": 73,
+            "supported_accuracy_percent": 68.86792452830188
+          },
           "annotated_overlap_detected_seconds": 5.503332999999998
         }
       },
-      "reference_note": "Reviewed from Checksub\u2019s original subtitle export and speaker assignments. This may favor agreement with the Checksub baseline represented here by Precision-3. Cue times came from Checksub\u2019s transcription/alignment pipeline and were not independently annotated.",
+      "reference_note": "Reviewed from Checksub\u2019s original subtitle export and speaker assignments. The initial speaker labels may influence human review. Cue times came from the shared Checksub transcription/alignment pipeline; those times do not inherently favor either diarizer.",
       "annotated_overlap_seconds": 6.099999999999994,
       "overlap_events": [
         {
@@ -6144,6 +6168,18 @@
             "seconds": 4.16,
             "peak": 2
           },
+          "subtitle_accuracy": {
+            "total_cues": 90,
+            "scored_cues": 90,
+            "excluded_multiple_speaker_cues": 0,
+            "correct_cues": 80,
+            "incorrect_cues": 10,
+            "accuracy_percent": 88.88888888888889,
+            "fallback_cues": 3,
+            "fallback_correct_cues": 1,
+            "supported_correct_cues": 79,
+            "supported_accuracy_percent": 87.77777777777777
+          },
           "annotated_overlap_detected_seconds": 0
         },
         "nemotron": {
@@ -6157,10 +6193,22 @@
             "seconds": 4.739999999999999,
             "peak": 2
           },
+          "subtitle_accuracy": {
+            "total_cues": 90,
+            "scored_cues": 90,
+            "excluded_multiple_speaker_cues": 0,
+            "correct_cues": 74,
+            "incorrect_cues": 16,
+            "accuracy_percent": 82.22222222222223,
+            "fallback_cues": 4,
+            "fallback_correct_cues": 1,
+            "supported_correct_cues": 73,
+            "supported_accuracy_percent": 81.11111111111111
+          },
           "annotated_overlap_detected_seconds": 0
         }
       },
-      "reference_note": "Reviewed from Checksub\u2019s original subtitle export and speaker assignments. This may favor agreement with the Checksub baseline represented here by Precision-3. Cue times came from Checksub\u2019s transcription/alignment pipeline and were not independently annotated.",
+      "reference_note": "Reviewed from Checksub\u2019s original subtitle export and speaker assignments. The initial speaker labels may influence human review. Cue times came from the shared Checksub transcription/alignment pipeline; those times do not inherently favor either diarizer.",
       "annotated_overlap_seconds": 0,
       "overlap_events": [
         {
@@ -8296,6 +8344,18 @@
             "seconds": 0.5200000000000102,
             "peak": 2
           },
+          "subtitle_accuracy": {
+            "total_cues": 78,
+            "scored_cues": 78,
+            "excluded_multiple_speaker_cues": 0,
+            "correct_cues": 39,
+            "incorrect_cues": 39,
+            "accuracy_percent": 50.0,
+            "fallback_cues": 2,
+            "fallback_correct_cues": 0,
+            "supported_correct_cues": 39,
+            "supported_accuracy_percent": 50.0
+          },
           "annotated_overlap_detected_seconds": 0
         },
         "nemotron": {
@@ -8309,10 +8369,22 @@
             "seconds": 0,
             "peak": 1
           },
+          "subtitle_accuracy": {
+            "total_cues": 78,
+            "scored_cues": 78,
+            "excluded_multiple_speaker_cues": 0,
+            "correct_cues": 41,
+            "incorrect_cues": 37,
+            "accuracy_percent": 52.56410256410256,
+            "fallback_cues": 3,
+            "fallback_correct_cues": 2,
+            "supported_correct_cues": 39,
+            "supported_accuracy_percent": 50.0
+          },
           "annotated_overlap_detected_seconds": 0
         }
       },
-      "reference_note": "Reviewed from Checksub\u2019s original subtitle export and speaker assignments. This may favor agreement with the Checksub baseline represented here by Precision-3. Cue times came from Checksub\u2019s transcription/alignment pipeline and were not independently annotated.",
+      "reference_note": "Reviewed from Checksub\u2019s original subtitle export and speaker assignments. The initial speaker labels may influence human review. Cue times came from the shared Checksub transcription/alignment pipeline; those times do not inherently favor either diarizer.",
       "annotated_overlap_seconds": 0,
       "overlap_events": [
         {
@@ -15701,6 +15773,18 @@
             "seconds": 21.720000000000343,
             "peak": 3
           },
+          "subtitle_accuracy": {
+            "total_cues": 261,
+            "scored_cues": 261,
+            "excluded_multiple_speaker_cues": 0,
+            "correct_cues": 210,
+            "incorrect_cues": 51,
+            "accuracy_percent": 80.45977011494253,
+            "fallback_cues": 3,
+            "fallback_correct_cues": 0,
+            "supported_correct_cues": 210,
+            "supported_accuracy_percent": 80.45977011494253
+          },
           "annotated_overlap_detected_seconds": 0
         },
         "nemotron": {
@@ -15714,10 +15798,22 @@
             "seconds": 2.3900000000000396,
             "peak": 2
           },
+          "subtitle_accuracy": {
+            "total_cues": 261,
+            "scored_cues": 261,
+            "excluded_multiple_speaker_cues": 0,
+            "correct_cues": 179,
+            "incorrect_cues": 82,
+            "accuracy_percent": 68.5823754789272,
+            "fallback_cues": 25,
+            "fallback_correct_cues": 11,
+            "supported_correct_cues": 168,
+            "supported_accuracy_percent": 64.36781609195403
+          },
           "annotated_overlap_detected_seconds": 0
         }
       },
-      "reference_note": "Reviewed from Checksub\u2019s original subtitle export and speaker assignments. This may favor agreement with the Checksub baseline represented here by Precision-3. Cue times came from Checksub\u2019s transcription/alignment pipeline and were not independently annotated.",
+      "reference_note": "Reviewed from Checksub\u2019s original subtitle export and speaker assignments. The initial speaker labels may influence human review. Cue times came from the shared Checksub transcription/alignment pipeline; those times do not inherently favor either diarizer.",
       "annotated_overlap_seconds": 0,
       "overlap_events": [
         {
@@ -25603,6 +25699,18 @@
             "seconds": 6.4999999999998295,
             "peak": 2
           },
+          "subtitle_accuracy": {
+            "total_cues": 312,
+            "scored_cues": 312,
+            "excluded_multiple_speaker_cues": 0,
+            "correct_cues": 277,
+            "incorrect_cues": 35,
+            "accuracy_percent": 88.78205128205128,
+            "fallback_cues": 6,
+            "fallback_correct_cues": 1,
+            "supported_correct_cues": 276,
+            "supported_accuracy_percent": 88.46153846153847
+          },
           "annotated_overlap_detected_seconds": 0
         },
         "nemotron": {
@@ -25616,10 +25724,22 @@
             "seconds": 6.180000000000064,
             "peak": 2
           },
+          "subtitle_accuracy": {
+            "total_cues": 312,
+            "scored_cues": 312,
+            "excluded_multiple_speaker_cues": 0,
+            "correct_cues": 260,
+            "incorrect_cues": 52,
+            "accuracy_percent": 83.33333333333333,
+            "fallback_cues": 33,
+            "fallback_correct_cues": 13,
+            "supported_correct_cues": 247,
+            "supported_accuracy_percent": 79.16666666666667
+          },
           "annotated_overlap_detected_seconds": 0
         }
       },
-      "reference_note": "Reviewed from an SRT prepared with NVIDIA speaker labels and existing Checksub cue times. This may favor NVIDIA\u2019s measured agreement, including how well its output aligns with the reference. The cue times were inherited from Checksub and were not independently annotated.",
+      "reference_note": "Reviewed from an SRT prepared with NVIDIA speaker labels and existing Checksub cue times. The initial labels may favor NVIDIA\u2019s measured identity agreement through review anchoring. The cue times were inherited from Checksub, shared by both models and were not independently annotated.",
       "annotated_overlap_seconds": 0.07999999999992724,
       "overlap_events": [
         {
@@ -26816,6 +26936,94 @@
     }
   ],
   "audio_seconds": 2434.9300000000003,
+  "subtitle_accuracy_method": {
+    "unit": "One reviewed subtitle line; every line has equal weight",
+    "assignment": "Checksub Subtitles::SetSpeakers: largest single segment overlap; first segment wins ties; no overlap defaults to speaker ID 1",
+    "mapping": "One global one-to-one cluster-to-reference mapping per recording and model, maximizing correct line count",
+    "excluded": "Lines with more than one annotated speaker are excluded from this single-speaker metric and remain in DER/overlap evaluation",
+    "fallback": "Primary accuracy includes Checksub default-speaker assignments; supported accuracy counts correct lines only when a model segment overlaps",
+    "interpretation": "Best-case speaker grouping agreement after consistent cluster naming; a proxy for speaker-label corrections, not measured editing time"
+  },
+  "subtitle_accuracy_summary": {
+    "all": {
+      "pyannote": {
+        "total_cues": 849,
+        "scored_cues": 847,
+        "excluded_multiple_speaker_cues": 2,
+        "correct_cues": 697,
+        "incorrect_cues": 150,
+        "fallback_cues": 15,
+        "fallback_correct_cues": 2,
+        "supported_correct_cues": 695,
+        "accuracy_percent": 82.29043683589138,
+        "supported_accuracy_percent": 82.0543093270366
+      },
+      "nemotron": {
+        "total_cues": 849,
+        "scored_cues": 847,
+        "excluded_multiple_speaker_cues": 2,
+        "correct_cues": 627,
+        "incorrect_cues": 220,
+        "fallback_cues": 69,
+        "fallback_correct_cues": 27,
+        "supported_correct_cues": 600,
+        "accuracy_percent": 74.02597402597402,
+        "supported_accuracy_percent": 70.83825265643448
+      }
+    },
+    "without_christmas": {
+      "pyannote": {
+        "total_cues": 537,
+        "scored_cues": 535,
+        "excluded_multiple_speaker_cues": 2,
+        "correct_cues": 420,
+        "incorrect_cues": 115,
+        "fallback_cues": 9,
+        "fallback_correct_cues": 1,
+        "supported_correct_cues": 419,
+        "accuracy_percent": 78.50467289719626,
+        "supported_accuracy_percent": 78.3177570093458
+      },
+      "nemotron": {
+        "total_cues": 537,
+        "scored_cues": 535,
+        "excluded_multiple_speaker_cues": 2,
+        "correct_cues": 367,
+        "incorrect_cues": 168,
+        "fallback_cues": 36,
+        "fallback_correct_cues": 14,
+        "supported_correct_cues": 353,
+        "accuracy_percent": 68.59813084112149,
+        "supported_accuracy_percent": 65.98130841121495
+      }
+    },
+    "within_eight_speakers": {
+      "pyannote": {
+        "total_cues": 429,
+        "scored_cues": 429,
+        "excluded_multiple_speaker_cues": 0,
+        "correct_cues": 329,
+        "incorrect_cues": 100,
+        "fallback_cues": 8,
+        "fallback_correct_cues": 1,
+        "supported_correct_cues": 328,
+        "accuracy_percent": 76.68997668997669,
+        "supported_accuracy_percent": 76.45687645687646
+      },
+      "nemotron": {
+        "total_cues": 429,
+        "scored_cues": 429,
+        "excluded_multiple_speaker_cues": 0,
+        "correct_cues": 294,
+        "incorrect_cues": 135,
+        "fallback_cues": 32,
+        "fallback_correct_cues": 14,
+        "supported_correct_cues": 280,
+        "accuracy_percent": 68.53146853146853,
+        "supported_accuracy_percent": 65.26806526806527
+      }
+    }
+  },
   "within_eight_speakers": {
     "pyannote": {
       "clips": 3,

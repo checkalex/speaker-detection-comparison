@@ -6,6 +6,8 @@ import json
 from pathlib import Path
 import sys
 
+import subtitle_accuracy
+
 
 def activity(segments, duration):
     events = {0.0: 0, duration: 0}
@@ -67,6 +69,8 @@ def main():
               ('friends_funniest_moments_friends_export-', 'friends', 'Friends: Funniest Moments', 'Eight named characters', 'Live-action dialogue, laughter and long subtitle gaps'),
               ('friends_tv_show_-_christmas_episodes_compilation_pt_1_export-', 'christmas', 'Friends: Christmas Episodes', 'Nine named characters', 'Short interjections, laughter and a brief ninth speaker')]
     selected_scores = {model: [] for model in ['pyannote', 'nemotron']}
+    subtitle_scores = []
+    subtitle_audit = []
     for pattern, identifier, title, subtitle, context in config:
         paths = list((run / 'clips').glob(pattern + '*'))
         assert len(paths) == 1
@@ -74,6 +78,7 @@ def main():
         meta = bench.read_json(path / 'meta.json')
         duration = meta['duration_seconds']
         reference = bench.read_reference(path / 'reference.csv', duration)
+        reference_cues = subtitle_accuracy.read_cues(path / 'reference.csv', duration)
         clip = {'id': identifier, 'title': title, 'subtitle': subtitle, 'context': context,
                 'duration': duration, 'speakers': len({s['speaker'] for s in reference}),
                 'audio_sha256': meta['audio_sha256'], 'reference_sha256': hashlib.sha256((path / 'reference.csv').read_bytes()).hexdigest(),
@@ -83,12 +88,12 @@ def main():
                 'activity': {'reference': activity(reference, duration)}, 'results': {}}
         if identifier == 'christmas':
             clip['reference_note'] = ('Reviewed from an SRT prepared with NVIDIA speaker labels and existing Checksub cue times. '
-                                      'This may favor NVIDIA’s measured agreement, including how well its output aligns with the reference. '
-                                      'The cue times were inherited from Checksub and were not independently annotated.')
+                                      'The initial labels may favor NVIDIA’s measured identity agreement through review anchoring. '
+                                      'The cue times were inherited from Checksub, shared by both models and were not independently annotated.')
         else:
             clip['reference_note'] = ('Reviewed from Checksub’s original subtitle export and speaker assignments. '
-                                      'This may favor agreement with the Checksub baseline represented here by Precision-3. '
-                                      'Cue times came from Checksub’s transcription/alignment pipeline and were not independently annotated.')
+                                      'The initial speaker labels may influence human review. '
+                                      'Cue times came from the shared Checksub transcription/alignment pipeline; those times do not inherently favor either diarizer.')
         for detector in ['pyannote', 'nemotron']:
             result = bench.read_json(path / (detector + '.json'))
             assert result['audio_sha256'] == meta['audio_sha256']
@@ -100,6 +105,19 @@ def main():
             clip['results'][detector] = {k: score[k] for k in ['der_percent', 'reference_speaker_seconds',
                 'missed_speech_seconds', 'false_speech_seconds', 'speaker_confusion_seconds', 'detected_speakers']}
             clip['results'][detector]['overlap'] = overlap_stats(clip['activity'][detector], 0, duration)
+            fallback = 'SPEAKER_00' if detector == 'pyannote' else 'speaker_0'
+            cue_score = subtitle_accuracy.score_cues(reference_cues, result['segments'], fallback)
+            clip['results'][detector]['subtitle_accuracy'] = cue_score['summary']
+            subtitle_scores.append({'clip': identifier, 'title': title, 'model': detector, **cue_score})
+            anonymous_reference = {name: f'R{index + 1}' for index, name in enumerate(sorted({
+                name for cue in reference_cues for name in cue['speakers']}))}
+            for cue in cue_score['cues']:
+                subtitle_audit.append({'clip': title, 'model': detector, 'cue_number': cue['cue_number'],
+                    'start': cue['start'], 'end': cue['end'],
+                    'reference_speakers': '|'.join(anonymous_reference[name] for name in cue['speakers']),
+                    'predicted_cluster': cue['predicted_speaker'],
+                    'mapped_reference': anonymous_reference.get(cue['mapped_speaker']),
+                    'status': cue['status'], 'correct': cue['correct'], 'editor_fallback': cue['fallback']})
         annotated = union([(a, b) for a, b, count in clip['activity']['reference'] if count >= 2])
         clip['annotated_overlap_seconds'] = sum(b - a for a, b in annotated)
         clip['overlap_events'] = []
@@ -119,6 +137,20 @@ def main():
                 overlap_stats(clip['activity'][detector], a, b)['seconds'] for a, b in annotated)
         public['clips'].append(clip)
     public['audio_seconds'] = sum(c['duration'] for c in public['clips'])
+    public['subtitle_accuracy_method'] = {
+        'unit': 'One reviewed subtitle line; every line has equal weight',
+        'assignment': 'Checksub Subtitles::SetSpeakers: largest single segment overlap; first segment wins ties; no overlap defaults to speaker ID 1',
+        'mapping': 'One global one-to-one cluster-to-reference mapping per recording and model, maximizing correct line count',
+        'excluded': 'Lines with more than one annotated speaker are excluded from this single-speaker metric and remain in DER/overlap evaluation',
+        'fallback': 'Primary accuracy includes Checksub default-speaker assignments; supported accuracy counts correct lines only when a model segment overlaps',
+        'interpretation': 'Best-case speaker grouping agreement after consistent cluster naming; a proxy for speaker-label corrections, not measured editing time'
+    }
+    public['subtitle_accuracy_summary'] = {}
+    for subset, clips in [('all', public['clips']), ('without_christmas', [c for c in public['clips'] if c['id'] != 'christmas']),
+                          ('within_eight_speakers', [c for c in public['clips'] if c['speakers'] <= 8])]:
+        public['subtitle_accuracy_summary'][subset] = {
+            model: subtitle_accuracy.aggregate([c['results'][model]['subtitle_accuracy'] for c in clips])
+            for model in ['pyannote', 'nemotron']}
     within_limit = [c for c in public['clips'] if c['speakers'] <= 8]
     public['within_eight_speakers'] = {}
     for model in ['pyannote', 'nemotron']:
@@ -140,10 +172,26 @@ def main():
         assert abs(public['summary'][model]['der_percent'] - expected) < 1e-8
     target = Path(__file__).parent / 'site' / 'data'
     target.mkdir(parents=True, exist_ok=True)
+    bench.write_json(run / 'subtitle-scores.json', {
+        'method': public['subtitle_accuracy_method'], 'summary': public['subtitle_accuracy_summary'], 'clips': subtitle_scores})
     (target / 'comparison.json').write_text(json.dumps(public, indent=2) + '\n')
     (target / 'comparison.js').write_text('window.COMPARISON = ' + json.dumps(public, separators=(',', ':')) + ';\n')
     # The webpage works both as a local file and under a GitHub Pages project path.
     import csv
+    with (target / 'subtitle-assignments.csv').open('w', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=list(subtitle_audit[0]), lineterminator='\n')
+        writer.writeheader()
+        writer.writerows(subtitle_audit)
+    with (target / 'subtitle-accuracy.csv').open('w', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=['clip', 'model', *public['subtitle_accuracy_summary']['all']['pyannote']], lineterminator='\n')
+        writer.writeheader()
+        for clip in public['clips']:
+            for model in ['pyannote', 'nemotron']:
+                writer.writerow({'clip': clip['title'], 'model': public['models'][model]['name'],
+                                 **clip['results'][model]['subtitle_accuracy']})
+        for subset, models in public['subtitle_accuracy_summary'].items():
+            for model, summary in models.items():
+                writer.writerow({'clip': subset, 'model': public['models'][model]['name'], **summary})
     with (target / 'results.csv').open('w', newline='') as f:
         writer = csv.writer(f, lineterminator='\n')
         writer.writerow(['clip', 'model', 'DER_percent', 'reference_speakers', 'detected_speakers', 'missed_speech_seconds', 'false_speech_seconds', 'speaker_confusion_seconds'])
