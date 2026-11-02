@@ -1,6 +1,6 @@
 # Speaker detection, measured
 
-A static, presentation-ready evaluation of **pyannote Precision-3** and **NVIDIA Nemotron 3 Diarization**, based on three English animation excerpts evaluated on 29 October 2026.
+A static, presentation-ready evaluation of **pyannote Precision-3** and **NVIDIA Nemotron 3 Diarization**, updated on 2 November 2026 with five completed English recordings: three animation excerpts and two Friends compilations. Shrek remains excluded while its reviewed reference is pending.
 
 Published report: **https://checkalex.github.io/speaker-detection-comparison/**
 
@@ -11,11 +11,15 @@ Published report: **https://checkalex.github.io/speaker-detection-comparison/**
 | Dave the Barbarian | 36.06% | 47.24% | 11 |
 | Pizza Delivery | 43.80% | 45.11% | 5 |
 | Veronica Having Bad Luck | 69.08% | 67.60% | 8 |
-| Weighted overall | **47.69%** | 52.30% | |
+| Friends: Funniest Moments | 78.98% | 45.55% | 8 |
+| Friends: Christmas Episodes | 56.01% | 25.83% | 9 |
+| Weighted overall | 58.34% | **41.38%** | |
 
-Dave exceeds NVIDIA's documented eight-speaker capacity. On the two clips within that limit, the weighted results are nearly tied: **55.91% for Precision-3 versus 55.88% for NVIDIA**. This exploratory pilot does not establish a broad winner or justify replacing the existing baseline.
+NVIDIA leads total DER, mainly through fewer detections outside the subtitle reference. Precision-3 has less wrong-speaker time in every clip: **139.68 seconds total versus 203.66 seconds for NVIDIA**. Keep Precision-3 as the provisional baseline for speaker assignment while validating actual speech boundaries independently.
 
-The reference uses human-assigned character names with subtitle export timestamps, not independent speech-boundary annotation. Only Dave's two chorus intervals explicitly annotate simultaneous voices. The report makes these limitations visible alongside the results.
+Dave and Friends Christmas exceed NVIDIA's documented eight-speaker capacity. On the three clips within that limit, weighted DER is **67.71% for Precision-3 versus 50.59% for NVIDIA**.
+
+All five references are model-assisted and then human-reviewed. The first four began with Checksub’s original subtitle exports and speaker assignments, which may favor the Checksub/Precision-3 baseline. Friends Christmas began with NVIDIA speaker labels, which may favor NVIDIA’s measured agreement. All five retain cue times from Checksub’s transcription/alignment pipeline; these timings were not independently supplied by either diarization model. The per-recording cards and methodology explain the potential bias in both directions. Speech boundaries were not independently annotated. Only Dave's two chorus intervals explicitly annotate simultaneous voices; the brief overlapping subtitle intervals in Christmas are shown separately as unconfirmed overlap.
 
 ## What's included
 
@@ -47,7 +51,7 @@ The data builder reads an existing run produced by the separate `speaker-detecto
 python3 build_charts.py
 ```
 
-`build_charts.py` requires Matplotlib and NumPy. The report is a frozen study: if source results change, update the written numerical summary and conclusion alongside the charts. Browser verification should include desktop, mobile, all three recording tabs, event selection, time-slider interaction and printing.
+`build_charts.py` requires Matplotlib and NumPy. The report is a frozen study: if source results change, update the written numerical summary and conclusion alongside the charts. The builder publishes only its five explicitly selected recordings and computes aggregates from that selection. Browser verification should include desktop, mobile, all five recording tabs, event selection, time-slider interaction and printing.
 
 ## Publish
 

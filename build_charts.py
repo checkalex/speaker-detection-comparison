@@ -24,28 +24,32 @@ def clean(ax):
 
 def save(fig, name):
     for extension in ['svg', 'png']:
-        fig.savefig(ROOT / 'assets' / f'{name}.{extension}', bbox_inches='tight', dpi=190)
+        path = ROOT / 'assets' / f'{name}.{extension}'
+        fig.savefig(path, bbox_inches='tight', dpi=190)
+        if extension == 'svg':
+            path.write_text('\n'.join(line.rstrip() for line in path.read_text().splitlines()) + '\n')
     plt.close(fig)
 
 
 def quality():
-    fig, ax = plt.subplots(figsize=(11.8, 4.1))
-    labels = ['Dave the Barbarian', 'Pizza Delivery', 'Veronica Having Bad Luck']
+    count = len(DATA['clips'])
+    fig, ax = plt.subplots(figsize=(11.8, 1.15 * count + .8))
+    labels = [clip['title'] for clip in DATA['clips']]
     for i, clip in enumerate(DATA['clips']):
-        y = 2 - i
+        y = count - 1 - i
         a, b = (clip['results'][m]['der_percent'] for m in ['pyannote', 'nemotron'])
         ax.plot([a, b], [y, y], color='#cfd5d1', linewidth=4, zorder=1, solid_capstyle='round')
         for value, color, offset in [(a, ORANGE, .19), (b, TEAL, -.22)]:
             ax.scatter(value, y, s=90, color=color, edgecolor='white', linewidth=1.5, zorder=3)
             ax.text(value, y + offset, f'{value:.2f}%', color=color, fontsize=11, fontweight='bold', ha='center')
-    ax.set_yticks([2, 1, 0], labels)
-    ax.set_xlim(0, 80)
-    ax.set_ylim(-.6, 2.6)
+    ax.set_yticks(list(reversed(range(count))), labels)
+    ax.set_xlim(0, 90)
+    ax.set_ylim(-.6, count - .4)
     ax.set_xticks([0, 20, 40, 60, 80], ['0%', '20%', '40%', '60%', '80%'])
     ax.grid(axis='x', color=GRID, linewidth=1)
     ax.set_xlabel('Diarization error rate · lower is better', labelpad=18, fontsize=10)
     clean(ax)
-    fig.subplots_adjust(left=.24, right=.96, bottom=.2, top=.94)
+    fig.subplots_adjust(left=.26, right=.96, bottom=.14, top=.96)
     save(fig, 'quality-by-clip')
 
 
@@ -63,7 +67,7 @@ def errors():
             left += points
         ax.text(left + 1.3, y, f'{left:.2f}%', fontsize=12, va='center', fontweight='bold')
     ax.set_yticks([1, 0], ['Precision-3', 'NVIDIA'])
-    ax.set_xlim(0, 65)
+    ax.set_xlim(0, 70)
     ax.set_xticks([0, 20, 40, 60], ['0', '20', '40', '60'])
     ax.set_ylim(-.6, 1.6)
     ax.grid(axis='x', color=GRID)
@@ -74,42 +78,43 @@ def errors():
 
 
 def speaker_counts():
-    fig, ax = plt.subplots(figsize=(11.8, 3.8))
-    y = np.arange(3)
+    fig, ax = plt.subplots(figsize=(11.8, 1.05 * len(DATA['clips']) + .8))
+    y = np.arange(len(DATA['clips']))
     for offset, key, color, label in [(-.23, 'reference', INK, 'Reference'), (0, 'pyannote', ORANGE, 'Precision-3'), (.23, 'nemotron', TEAL, 'NVIDIA')]:
         values = [c['speakers'] if key == 'reference' else c['results'][key]['detected_speakers'] for c in DATA['clips']]
         bars = ax.barh(y + offset, values, height=.18, color=color, label=label, zorder=2)
         for bar, value in zip(bars, values):
             ax.text(value + .15, bar.get_y() + bar.get_height() / 2, str(value), va='center', fontsize=11, color=color, fontweight='bold')
-    ax.set_yticks(y, ['Dave the Barbarian', 'Pizza Delivery', 'Veronica Having Bad Luck'])
+    ax.set_yticks(y, [clip['title'] for clip in DATA['clips']])
     ax.invert_yaxis()
     ax.set_xticks([0, 4, 8, 12])
     ax.set_xlim(0, 12)
     ax.grid(axis='x', color=GRID)
     ax.set_xlabel('Distinct speaker labels across the whole clip', labelpad=16, fontsize=10)
     clean(ax)
-    fig.subplots_adjust(left=.24, right=.96, bottom=.2, top=.94)
+    fig.subplots_adjust(left=.26, right=.96, bottom=.14, top=.96)
     save(fig, 'speaker-counts')
 
 
 def mobile_figures():
-    fig, ax = plt.subplots(figsize=(4.5, 4.4))
+    count = len(DATA['clips'])
+    fig, ax = plt.subplots(figsize=(4.5, 1.2 * count + .8))
     for i, clip in enumerate(DATA['clips']):
-        y = 2 - i
+        y = count - 1 - i
         a, b = (clip['results'][m]['der_percent'] for m in ['pyannote', 'nemotron'])
         ax.text(0, y + .39, clip['title'], fontsize=9, fontweight='bold')
         ax.plot([a, b], [y, y], color='#cfd5d1', linewidth=3)
         for value, color, offset in [(a, ORANGE, .15), (b, TEAL, -.2)]:
             ax.scatter(value, y, s=52, color=color, edgecolor='white', linewidth=1, zorder=3)
             ax.text(value, y + offset, f'{value:.2f}%', color=color, fontsize=9, fontweight='bold', ha='center')
-    ax.set_xlim(0, 82)
-    ax.set_ylim(-.5, 2.7)
+    ax.set_xlim(0, 90)
+    ax.set_ylim(-.5, count - .3)
     ax.set_yticks([])
     ax.set_xticks([0, 20, 40, 60, 80], ['0%', '20%', '40%', '60%', '80%'])
     ax.tick_params(labelsize=8)
     ax.grid(axis='x', color=GRID, linewidth=.7)
     clean(ax)
-    fig.subplots_adjust(left=.06, right=.96, bottom=.12, top=.97)
+    fig.subplots_adjust(left=.06, right=.96, bottom=.08, top=.97)
     save(fig, 'quality-mobile')
 
     fig, ax = plt.subplots(figsize=(4.5, 2.4))
@@ -123,7 +128,7 @@ def mobile_figures():
             ax.text(left + value / 2, y, f'{value:.2f}', ha='center', va='center', color='white' if key != keys[-1] else INK, fontsize=8)
             left += value
         ax.text(left + .9, y, f'{left:.2f}%', fontsize=9, va='center', fontweight='bold')
-    ax.set_xlim(0, 65)
+    ax.set_xlim(0, 70)
     ax.set_ylim(-.45, 1.6)
     ax.set_yticks([])
     ax.set_xticks([0, 20, 40, 60])
@@ -132,22 +137,22 @@ def mobile_figures():
     fig.subplots_adjust(left=.03, right=.99, bottom=.15, top=.97)
     save(fig, 'errors-mobile')
 
-    fig, ax = plt.subplots(figsize=(4.5, 4.7))
+    fig, ax = plt.subplots(figsize=(4.5, 1.2 * count + .8))
     for index, clip in enumerate(DATA['clips']):
-        y = 2 - index
+        y = count - 1 - index
         ax.text(0, y + .39, clip['title'], fontsize=9, fontweight='bold')
         for offset, key, color in [(.15, 'reference', INK), (0, 'pyannote', ORANGE), (-.15, 'nemotron', TEAL)]:
             value = clip['speakers'] if key == 'reference' else clip['results'][key]['detected_speakers']
             ax.barh(y + offset, value, height=.11, color=color)
             ax.text(value + .15, y + offset, str(value), va='center', fontsize=8, fontweight='bold', color=color)
     ax.set_xlim(0, 12)
-    ax.set_ylim(-.5, 2.7)
+    ax.set_ylim(-.5, count - .3)
     ax.set_yticks([])
     ax.set_xticks([0, 4, 8, 12])
     ax.tick_params(labelsize=8)
     ax.grid(axis='x', color=GRID, linewidth=.7)
     clean(ax)
-    fig.subplots_adjust(left=.03, right=.96, bottom=.12, top=.97)
+    fig.subplots_adjust(left=.03, right=.96, bottom=.08, top=.97)
     save(fig, 'speakers-mobile')
 
 

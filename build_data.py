@@ -50,9 +50,9 @@ def main():
     sys.path.insert(0, str(run.parent.parent))
     import bench
     scores = bench.generate_scores(run)
-    public = {'date': '2026-10-29', 'scope': 'Three English animation excerpts',
+    public = {'date': '2026-11-02', 'scope': 'Five completed English animation and live-action recordings',
               'metric': 'Diarization error rate (DER)', 'collar_seconds': 0,
-              'overlap_included': True, 'summary': scores['summary_on_paired_clips_only'],
+              'overlap_included': True, 'summary': {},
               'models': {
                   'pyannote': {'name': 'pyannote Precision-3', 'short': 'Precision-3', 'deployment': 'Hosted API',
                                'source': 'https://www.pyannote.ai/precision-3'},
@@ -63,7 +63,10 @@ def main():
               'clips': []}
     config = [('Dave_the_Barbarian', 'dave', 'Dave the Barbarian', 'A five-voice chorus', 'Singing, music and a large cast'),
               ('pizza_delivery', 'pizza', 'Pizza Delivery', 'Short exchanges & expressive voices', 'Rapid dialogue and background music'),
-              ('Veronica_Having_Bad_Luck', 'veronica', 'Veronica Having Bad Luck', 'Frequent changes across eight roles', 'Short turns and similar character voices')]
+              ('Veronica_Having_Bad_Luck', 'veronica', 'Veronica Having Bad Luck', 'Frequent changes across eight roles', 'Short turns and similar character voices'),
+              ('friends_funniest_moments_friends_export-', 'friends', 'Friends: Funniest Moments', 'Eight named characters', 'Live-action dialogue, laughter and long subtitle gaps'),
+              ('friends_tv_show_-_christmas_episodes_compilation_pt_1_export-', 'christmas', 'Friends: Christmas Episodes', 'Nine named characters', 'Short interjections, laughter and a brief ninth speaker')]
+    selected_scores = {model: [] for model in ['pyannote', 'nemotron']}
     for pattern, identifier, title, subtitle, context in config:
         paths = list((run / 'clips').glob(pattern + '*'))
         assert len(paths) == 1
@@ -74,12 +77,25 @@ def main():
         clip = {'id': identifier, 'title': title, 'subtitle': subtitle, 'context': context,
                 'duration': duration, 'speakers': len({s['speaker'] for s in reference}),
                 'audio_sha256': meta['audio_sha256'], 'reference_sha256': hashlib.sha256((path / 'reference.csv').read_bytes()).hexdigest(),
+                'model_assisted_reference': True,
+                'initial_reference_source': 'NVIDIA-assisted labels' if identifier == 'christmas' else 'Checksub original export',
+                'confirmed_overlap_reference': identifier == 'dave',
                 'activity': {'reference': activity(reference, duration)}, 'results': {}}
+        if identifier == 'christmas':
+            clip['reference_note'] = ('Reviewed from an SRT prepared with NVIDIA speaker labels and existing Checksub cue times. '
+                                      'This may favor NVIDIA’s measured agreement, including how well its output aligns with the reference. '
+                                      'The cue times were inherited from Checksub and were not independently annotated.')
+        else:
+            clip['reference_note'] = ('Reviewed from Checksub’s original subtitle export and speaker assignments. '
+                                      'This may favor agreement with the Checksub baseline represented here by Precision-3. '
+                                      'Cue times came from Checksub’s transcription/alignment pipeline and were not independently annotated.')
         for detector in ['pyannote', 'nemotron']:
             result = bench.read_json(path / (detector + '.json'))
             assert result['audio_sha256'] == meta['audio_sha256']
+            assert result['config'] == bench.expected_config(detector)
             score = next(r for r in scores['clips'] if r['clip'] == path.name and r['detector'] == detector)
             assert score['status'] == 'scored'
+            selected_scores[detector].append(score)
             clip['activity'][detector] = activity(result['segments'], duration)
             clip['results'][detector] = {k: score[k] for k in ['der_percent', 'reference_speaker_seconds',
                 'missed_speech_seconds', 'false_speech_seconds', 'speaker_confusion_seconds', 'detected_speakers']}
@@ -117,7 +133,11 @@ def main():
             key: {'seconds': sum(c['results'][model][key] for c in public['clips']),
                   'der_points': 100 * sum(c['results'][model][key] for c in public['clips']) / total}
             for key in ['missed_speech_seconds', 'false_speech_seconds', 'speaker_confusion_seconds']}
-        assert abs(sum(v['der_points'] for v in public['aggregate_errors'][model].values()) - public['summary'][model]['der_percent']) < 1e-8
+        public['summary'][model] = {
+            'paired_clips': len(public['clips']),
+            'der_percent': sum(value['der_points'] for value in public['aggregate_errors'][model].values())}
+        expected = sum(row['der_percent'] * row['reference_speaker_seconds'] for row in selected_scores[model]) / total
+        assert abs(public['summary'][model]['der_percent'] - expected) < 1e-8
     target = Path(__file__).parent / 'site' / 'data'
     target.mkdir(parents=True, exist_ok=True)
     (target / 'comparison.json').write_text(json.dumps(public, indent=2) + '\n')
@@ -125,7 +145,7 @@ def main():
     # The webpage works both as a local file and under a GitHub Pages project path.
     import csv
     with (target / 'results.csv').open('w', newline='') as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator='\n')
         writer.writerow(['clip', 'model', 'DER_percent', 'reference_speakers', 'detected_speakers', 'missed_speech_seconds', 'false_speech_seconds', 'speaker_confusion_seconds'])
         for clip in public['clips']:
             for model in ['pyannote', 'nemotron']:
