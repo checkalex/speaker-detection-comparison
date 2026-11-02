@@ -1,0 +1,17 @@
+clip,model,total_cues,scored_cues,excluded_multiple_speaker_cues,correct_cues,incorrect_cues,fallback_cues,fallback_correct_cues,supported_correct_cues,accuracy_percent,supported_accuracy_percent
+Dave the Barbarian,pyannote Precision-3,108,106,2,91,15,1,0,91,85.84905660377359,85.84905660377359
+Dave the Barbarian,NVIDIA Nemotron 3 Diarization,108,106,2,73,33,4,0,73,68.86792452830188,68.86792452830188
+Pizza Delivery,pyannote Precision-3,90,90,0,80,10,3,1,79,88.88888888888889,87.77777777777777
+Pizza Delivery,NVIDIA Nemotron 3 Diarization,90,90,0,74,16,4,1,73,82.22222222222223,81.11111111111111
+Veronica Having Bad Luck,pyannote Precision-3,78,78,0,39,39,2,0,39,50.0,50.0
+Veronica Having Bad Luck,NVIDIA Nemotron 3 Diarization,78,78,0,41,37,3,2,39,52.56410256410256,50.0
+Friends: Funniest Moments,pyannote Precision-3,261,261,0,210,51,3,0,210,80.45977011494253,80.45977011494253
+Friends: Funniest Moments,NVIDIA Nemotron 3 Diarization,261,261,0,179,82,25,11,168,68.5823754789272,64.36781609195403
+Friends: Christmas Episodes,pyannote Precision-3,312,312,0,277,35,6,1,276,88.78205128205128,88.46153846153847
+Friends: Christmas Episodes,NVIDIA Nemotron 3 Diarization,312,312,0,260,52,33,13,247,83.33333333333333,79.16666666666667
+all,pyannote Precision-3,849,847,2,697,150,15,2,695,82.29043683589138,82.0543093270366
+all,NVIDIA Nemotron 3 Diarization,849,847,2,627,220,69,27,600,74.02597402597402,70.83825265643448
+without_christmas,pyannote Precision-3,537,535,2,420,115,9,1,419,78.50467289719626,78.3177570093458
+without_christmas,NVIDIA Nemotron 3 Diarization,537,535,2,367,168,36,14,353,68.59813084112149,65.98130841121495
+within_eight_speakers,pyannote Precision-3,429,429,0,329,100,8,1,328,76.68997668997669,76.45687645687646
+within_eight_speakers,NVIDIA Nemotron 3 Diarization,429,429,0,294,135,32,14,280,68.53146853146853,65.26806526806527

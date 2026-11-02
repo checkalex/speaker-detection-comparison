@@ -14,6 +14,12 @@
     return `${minutes}:${remainder.padStart(decimals ? decimals + 3 : 2, '0')}`;
   };
 
+  const subtitleSummary = data.subtitle_accuracy_summary.all;
+  $('#subtitle-score-rows').innerHTML = data.clips.map(clip => {
+    const p = clip.results.pyannote.subtitle_accuracy, n = clip.results.nemotron.subtitle_accuracy;
+    return `<tr><th>${clip.title}</th><td>${p.scored_cues}</td><td>${p.correct_cues} · ${fixed(p.accuracy_percent)}%</td><td>${n.correct_cues} · ${fixed(n.accuracy_percent)}%</td><td>${p.incorrect_cues} / ${n.incorrect_cues}</td></tr>`;
+  }).join('') + `<tr class="total-row"><th>All five recordings</th><td>${subtitleSummary.pyannote.scored_cues}</td><td>${subtitleSummary.pyannote.correct_cues} · ${fixed(subtitleSummary.pyannote.accuracy_percent)}%</td><td>${subtitleSummary.nemotron.correct_cues} · ${fixed(subtitleSummary.nemotron.accuracy_percent)}%</td><td>${subtitleSummary.pyannote.incorrect_cues} / ${subtitleSummary.nemotron.incorrect_cues}</td></tr>`;
+
   $('.clip-tabs').innerHTML = data.clips.map(clip => `<button type="button" data-clip="${clip.id}" data-testid="select-${clip.id}" aria-pressed="false">${clip.id === 'friends' ? 'Friends: Funniest' : clip.id === 'christmas' ? 'Friends: Christmas' : clip.id === 'veronica' ? 'Veronica' : clip.title}</button>`).join('');
 
   $('#clip-cards').innerHTML = data.clips.map((clip, index) => {
@@ -21,9 +27,10 @@
     const winner = p.der_percent < n.der_percent ? 'pyannote' : 'nemotron';
     return `<article class="clip-card"><div class="clip-card-top"><span class="clip-index">0${index + 1}</span><span>${time(clip.duration)} · ${clip.speakers} reference voices</span></div>
       <h3>${clip.title}</h3><p class="clip-context">${clip.context}</p>${clip.reference_note ? `<p class="clip-reference-note"><strong>Reference caveat</strong> ${clip.reference_note}</p>` : ''}
-      <div class="clip-scores">${['pyannote', 'nemotron'].map(model => `<div class="clip-score-label"><span><i class="dot ${model === 'pyannote' ? 'precision' : 'nvidia'}"></i>${names[model]}</span><strong class="${model === 'pyannote' ? 'precision-text' : 'nvidia-text'}">${fixed(clip.results[model].der_percent)}<span>%</span></strong></div><div class="clip-track"><span class="${model === 'pyannote' ? 'precision-fill' : 'nvidia-fill'}" style="width:${clip.results[model].der_percent}%"></span></div>`).join('')}</div>
+      <p class="clip-subtitle-accuracy"><strong>Correct subtitle lines</strong><span class="precision-text">Precision-3 ${fixed(p.subtitle_accuracy.accuracy_percent)}%</span><span class="nvidia-text">NVIDIA ${fixed(n.subtitle_accuracy.accuracy_percent)}%</span></p>
+      <div class="clip-scores">${['pyannote', 'nemotron'].map(model => `<div class="clip-score-label"><span><i class="dot ${model === 'pyannote' ? 'precision' : 'nvidia'}"></i>${names[model]} DER</span><strong class="${model === 'pyannote' ? 'precision-text' : 'nvidia-text'}">${fixed(clip.results[model].der_percent)}<span>%</span></strong></div><div class="clip-track"><span class="${model === 'pyannote' ? 'precision-fill' : 'nvidia-fill'}" style="width:${clip.results[model].der_percent}%"></span></div>`).join('')}</div>
       <div class="speaker-tally"><span>Speaker labels<br>Reference / Precision-3 / NVIDIA</span><strong>${clip.speakers} / ${p.detected_speakers} / ${n.detected_speakers}</strong></div>
-      <div class="clip-card-footer"><span class="winner-tag ${winner === 'nemotron' ? 'nvidia-winner' : ''}">${names[winner]} lower error</span><button class="clip-explore" type="button" data-explore="${clip.id}" data-testid="explore-${clip.id}">Inspect overlap ↗</button></div></article>`;
+      <div class="clip-card-footer"><span class="winner-tag ${winner === 'nemotron' ? 'nvidia-winner' : ''}">${names[winner]} lower DER</span><button class="clip-explore" type="button" data-explore="${clip.id}" data-testid="explore-${clip.id}">Inspect overlap ↗</button></div></article>`;
   }).join('');
 
   const state = {clipId: 'dave', mode: 'focus', start: 197, end: 208, position: 201, allEvents: false, playing: false};
